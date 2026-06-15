@@ -1,0 +1,656 @@
+# ============================================================
+# YOGYAKARTA CONTENT BANK
+# Voice: Rama Kusuma — Javanese temple guide, Sleman
+# Guiding since 2006 (16 years). Photographer. Honest, direct.
+# Currency note: conversions at ~IDR 16,000 = USD 1 (2026).
+# Prices and hours shift; figures reflect 2024–2026 published rates.
+# ============================================================
+
+destination_facts:
+
+  # ---- BOROBUDUR ----
+  - topic: borobudur
+    fact: "Borobudur is the largest Buddhist temple in the world, located in Magelang Regency, Central Java, roughly 40 km northwest of Yogyakarta city."
+  - topic: borobudur
+    fact: "It was built in the 9th century (construction estimated circa 780–840 CE) under the Sailendra dynasty, during the reign that also produced nearby Mendut and Pawon temples."
+  - topic: borobudur
+    fact: "The monument is built from roughly 2 million blocks of andesite volcanic stone, assembled without mortar using interlocking joints."
+  - topic: borobudur
+    fact: "Borobudur has 2,672 relief panels and 504 Buddha statues across its terraces."
+  - topic: borobudur
+    fact: "The structure rises in nine stacked platforms — six square bases and three circular upper terraces — topped by a central stupa, symbolising the Buddhist path from the world of desire to enlightenment."
+  - topic: borobudur
+    fact: "The three circular terraces hold 72 bell-shaped perforated stupas, each containing a seated Buddha statue."
+  - topic: borobudur
+    fact: "The temple stands about 34.5 m tall and measures roughly 123 m on each side at the base."
+  - topic: borobudur
+    fact: "Borobudur was inscribed as a UNESCO World Heritage Site in 1991, together with the nearby Mendut and Pawon temples."
+  - topic: borobudur
+    fact: "After centuries hidden under volcanic ash and jungle, the site was brought to wider attention in 1814 under Sir Thomas Stamford Raffles, British Lieutenant-Governor of Java."
+  - topic: borobudur
+    fact: "A major UNESCO-backed restoration ran from 1975 to 1982, dismantling and re-laying the lower terraces with a new drainage system."
+  - topic: borobudur
+    fact: "Since 2023, climbing onto the temple terraces requires a separate timed ticket with a capped daily quota, a local guide, and special 'upanat' woven sandals to protect the original stone steps."
+  - topic: borobudur
+    fact: "Foreign-visitor courtyard entry (no climb) is around IDR 375,000 (~USD 23); the climb-to-structure ticket for foreigners runs around IDR 455,000 (~USD 28). Domestic rates are far lower (~IDR 50,000 courtyard)."
+  - topic: borobudur
+    fact: "Borobudur opens daily around 06:30 and closes around 16:30–17:00; the temple grounds (Taman Wisata) gate hours differ slightly from the structure-climb slots."
+  - topic: borobudur
+    fact: "Punthuk Setumbu (Setumbu Hill) is a sunrise viewpoint about 4 km west of Borobudur, sitting near 400 m elevation, where the temple appears as a silhouette above morning mist on clear days."
+  - topic: borobudur
+    fact: "Setumbu Hill entry is modest, around IDR 60,000 for foreigners; it is NOT inside Borobudur and does not include temple entry — they are sold separately."
+  - topic: borobudur
+    fact: "The relief panels read clockwise (pradaksina); the hidden base reliefs (Karmawibhangga) were largely covered during construction and are mostly not visible today."
+  - topic: borobudur
+    fact: "Mendut Temple, about 3 km east of Borobudur, holds a magnificent 3 m seated Buddha flanked by two bodhisattvas and is considered among the oldest Buddhist temples in the area (early 9th century)."
+  - topic: borobudur
+    fact: "Borobudur, Pawon, and Mendut sit on an almost straight line, which scholars believe was intentional and ceremonially linked."
+
+  # ---- PRAMBANAN ----
+  - topic: prambanan
+    fact: "Prambanan is the largest Hindu temple complex in Indonesia, built in the 9th century (around 850 CE) during the Sanjaya dynasty / reign attributed to Rakai Pikatan."
+  - topic: prambanan
+    fact: "It sits about 17 km east of Yogyakarta city, straddling the boundary between Yogyakarta and Klaten Regency in Central Java."
+  - topic: prambanan
+    fact: "The complex is dedicated to the Trimurti: Shiva, Vishnu, and Brahma, with Shiva as the principal deity."
+  - topic: prambanan
+    fact: "The tallest structure, the Shiva temple, rises about 47 m."
+  - topic: prambanan
+    fact: "The original complex held 240 temples; many are now ruins, with the central temples reconstructed."
+  - topic: prambanan
+    fact: "Prambanan was inscribed as a UNESCO World Heritage Site in 1991."
+  - topic: prambanan
+    fact: "The inner balustrades of the Shiva and Brahma temples carry carved reliefs telling the Ramayana epic."
+  - topic: prambanan
+    fact: "Foreign-visitor entry is around IDR 375,000 (~USD 23); a combined Borobudur + Prambanan ticket offers a discount over buying both separately."
+  - topic: prambanan
+    fact: "Prambanan opens daily around 06:30 and closes around 17:00."
+  - topic: prambanan
+    fact: "The 2006 Yogyakarta earthquake damaged several Prambanan structures; restoration and scaffolding have been ongoing in phases since."
+  - topic: prambanan
+    fact: "The Ramayana Ballet is staged near Prambanan: at the open-air Trimurti theatre with the lit temple as backdrop in the dry season (roughly May–October), and at the covered Trimurti indoor theatre in the wet season."
+  - topic: prambanan
+    fact: "Ramayana Ballet tickets are tiered by seating, commonly from around IDR 125,000 up to IDR 450,000+, separate from temple entry."
+  - topic: prambanan
+    fact: "Sewu Temple, a large Buddhist complex, sits within walking distance just north of Prambanan inside the same archaeological park, making the area a rare Hindu–Buddhist pairing."
+  - topic: prambanan
+    fact: "Ratu Boko, a hilltop palace and gate complex, lies about 3 km south of Prambanan and is a popular sunset viewpoint over the plain."
+
+  # ---- MERAPI ----
+  - topic: merapi
+    fact: "Mount Merapi (Gunung Merapi, 'Mountain of Fire') is one of the most active volcanoes in Indonesia, on the border of Yogyakarta Special Region and Central Java, north of the city."
+  - topic: merapi
+    fact: "Its summit elevation is roughly 2,930 m and shifts with each eruption as the summit dome rebuilds and collapses."
+  - topic: merapi
+    fact: "The 2010 eruption was the most severe in decades, killing over 350 people and forcing mass evacuations; it claimed the life of Mbah Maridjan, the volcano's traditional gatekeeper."
+  - topic: merapi
+    fact: "The Merapi 'Lava Tour' by 4WD jeep runs in the Kaliurang / Kaliadem area on the southern slope, across tracks scoured by the 2010 pyroclastic flows."
+  - topic: merapi
+    fact: "Jeep lava tours are priced per jeep (not per person), typically IDR 350,000 short route up to IDR 600,000+ long route, with each jeep seating about 4 passengers."
+  - topic: merapi
+    fact: "Common jeep stops include the Kaliadem bunker, Museum Sisa Hartaku ('museum of remaining belongings'), and Batu Alien — a large boulder thrown by the 2010 eruption."
+  - topic: merapi
+    fact: "Kaliurang, the hill resort on Merapi's slope, sits around 900 m and is noticeably cooler than the city; it is the traditional staging point for the volcano."
+  - topic: merapi
+    fact: "Merapi remains monitored constantly; access zones change with alert levels, and reputable jeep operators stay within the permitted radius set by BPPTKG (the volcano monitoring agency)."
+
+  # ---- JOMBLANG & PINDUL CAVES ----
+  - topic: caves
+    fact: "Jomblang Cave (Goa Jomblang) is a vertical collapse-doline cave in Semanu, Gunungkidul Regency, about 1.5–2 hours southeast of Yogyakarta."
+  - topic: caves
+    fact: "Entry to Jomblang is by rope descent of roughly 60 m using a single-rope technique with a belay system operated by the local crew."
+  - topic: caves
+    fact: "The famous 'Heaven's Light' (Cahaya Surga) — a beam of sunlight piercing the cave floor — appears most reliably on sunny days between about 10:00 and 12:00."
+  - topic: caves
+    fact: "Jomblang's underground chamber connects via a passage to the larger Grubug cave, where the light beam falls."
+  - topic: caves
+    fact: "Jomblang has a strict daily visitor cap (commonly cited around 25 in the prime late-morning window), which is why slots sell out and advance booking matters."
+  - topic: caves
+    fact: "Jomblang entry is comparatively expensive for the region — roughly IDR 450,000 for domestic visitors and up to around IDR 1,000,000 for foreigners — because it includes harness gear, the rope crew, and boots."
+  - topic: caves
+    fact: "Pindul Cave (Goa Pindul) in Bejiharjo, Gunungkidul, is a cave-tubing experience: floating on an inner tube along an underground river roughly 300–350 m long, taking about 45–60 minutes."
+  - topic: caves
+    fact: "Pindul cave-tubing is inexpensive, commonly around IDR 40,000–100,000, and is gentle enough for non-swimmers wearing life jackets."
+  - topic: caves
+    fact: "Pindul's chambers hold stalactites and stalagmites, a wide central 'dancing hall' section, and a resident bat colony."
+  - topic: caves
+    fact: "Gunungkidul is karst limestone country; its caves, underground rivers, and the southern beaches (Timang, Indrayanti) cluster in the same district, which is why adventure day tours combine them."
+
+  # ---- CYCLING ----
+  - topic: cycling
+    fact: "The Menoreh Hills span Kulon Progo Regency west of Yogyakarta and form the backdrop to many village cycling routes through rice terraces and small rivers."
+  - topic: cycling
+    fact: "Kotagede, southeast of central Yogyakarta, was the capital of the Mataram Sultanate founded in the late 16th century and remains a centre of traditional silver craft."
+  - topic: cycling
+    fact: "Village cycling tours commonly stop at home industries making tofu, tempeh, and emping (melinjo crackers), showing daily Javanese rural production."
+  - topic: cycling
+    fact: "Most Yogyakarta countryside cycling tours run 2–3 hours over flat-to-gentle terrain, timed for early morning before the midday heat."
+  - topic: cycling
+    fact: "Cycling routes near Prambanan thread through farming villages within sight of the temple spires, an angle most temple-day visitors never see."
+
+  # ---- YOGYAKARTA FOOD CULTURE ----
+  - topic: food
+    fact: "Gudeg — young jackfruit slow-stewed for hours in coconut milk and palm sugar until sweet and brown — is the signature dish of Yogyakarta; the city is nicknamed 'Kota Gudeg'."
+  - topic: food
+    fact: "Gudeg Yu Djum is among the most famous gudeg names in the city, with several outlets including the original near Wijilan."
+  - topic: food
+    fact: "Wijilan street, just east of the Kraton, is the traditional gudeg alley lined with long-running warungs."
+  - topic: food
+    fact: "Bakpia — small round pastries filled traditionally with sweet mung bean — come from the Pathuk (Pathok) neighbourhood; 'Bakpia Pathok 25' is a well-known brand."
+  - topic: food
+    fact: "Angkringan are low street stalls serving 'nasi kucing' (small 'cat-rice' portions), skewers, and tea; they are the everyday cheap supper of Jogja."
+  - topic: food
+    fact: "Kopi joss is an angkringan specialty: black coffee into which a glowing lump of charcoal is dropped, said to cut the acidity; the original stalls cluster near Tugu station."
+  - topic: food
+    fact: "Sate klathak is goat satay grilled on iron bicycle spokes (which conduct heat through the meat) and seasoned simply with salt; it is associated with the Imogiri area south of the city."
+  - topic: food
+    fact: "Malioboro is Yogyakarta's main commercial street running north from near the Kraton; it is the city's busiest tourist and street-food artery, especially at night."
+  - topic: food
+    fact: "Yogyakarta cooking classes frequently teach tumpeng — a cone of yellow turmeric rice traditionally served at ceremonies and thanksgivings."
+
+  # ---- MULTI-DAY (BROMO, IJEN, DIENG) ----
+  - topic: multi-day
+    fact: "Mount Bromo (2,329 m) sits inside the vast Tengger caldera in East Java; the classic sunrise is watched from Penanjakan / King Kong Hill viewpoints across the 'Sea of Sand'."
+  - topic: multi-day
+    fact: "Bromo is an active cone you can walk up to the crater rim via a staircase after crossing the volcanic sand plain on foot, jeep, or horseback."
+  - topic: multi-day
+    fact: "Ijen (Kawah Ijen, ~2,769 m) in Banyuwangi, East Java, is famous for its electric-blue flames — burning sulfuric gas — visible only in darkness, so the hike starts around 01:00–02:00."
+  - topic: multi-day
+    fact: "Ijen's summit crater holds the world's largest highly acidic lake, a striking turquoise, and is worked by sulfur miners who haul slabs up from the crater floor by hand."
+  - topic: multi-day
+    fact: "Ijen requires a gas mask near the blue-fire vents because the sulfur fumes are genuinely hazardous; reputable operators provide them."
+  - topic: multi-day
+    fact: "The Yogyakarta → Bromo → Ijen → Bali overland route is a standard 3-day itinerary, ending with a drop-off at Ketapang harbour in Banyuwangi for the ferry to Gilimanuk, Bali."
+  - topic: multi-day
+    fact: "The Yogyakarta–Bromo road leg is long (roughly 8–10 hours of driving), which is why these are multi-day, not day, trips."
+  - topic: multi-day
+    fact: "The Dieng Plateau in Central Java sits around 2,000 m and holds the Arjuna temple complex — among the oldest surviving Hindu temples in Java (7th–8th century), predating Borobudur and Prambanan."
+  - topic: multi-day
+    fact: "Sikunir Hill on the Dieng Plateau is renowned for its 'Golden Sunrise' over a sea of cloud, a pre-dawn climb in genuinely cold air (single-digit °C nights are common)."
+  - topic: multi-day
+    fact: "Dieng's volcanic features include Telaga Warna ('Colour Lake'), which shifts hue with sulfur content, and the bubbling Sikidang crater."
+  - topic: multi-day
+    fact: "Tumpak Sewu in East Java is a wide, tiered curtain waterfall sometimes added to extended Bromo–Ijen overland itineraries."
+
+  # ---- YOGYAKARTA GENERAL / LOGISTICS CONTEXT ----
+  - topic: yogyakarta
+    fact: "Yogyakarta is a Special Region (Daerah Istimewa Yogyakarta), the only Indonesian province still governed by a hereditary monarch — the reigning Sultan, Hamengkubuwono X — as governor."
+  - topic: yogyakarta
+    fact: "The Kraton (Sultan's palace) sits at the heart of the old city on a ceremonial north–south axis linking Mount Merapi and the southern sea."
+  - topic: yogyakarta
+    fact: "Yogyakarta International Airport (YIA) opened in Kulon Progo in 2019–2020 and replaced the small Adisutjipto airport for most commercial flights; YIA is about 40 km west of the city, around 1–1.5 hours by road."
+  - topic: yogyakarta
+    fact: "Yogyakarta Tugu station is the central railway station; Yogyakarta is well connected by train to Jakarta, Surabaya, and Solo."
+  - topic: yogyakarta
+    fact: "The Indonesian rupiah traded around IDR 15,500–16,000 per US dollar through 2024–2026; large notes look intimidating but the smallest useful denominations are IDR 2,000 and 5,000."
+  - topic: yogyakarta
+    fact: "Yogyakarta has a tropical climate with a dry season roughly May–September and a wet season roughly November–March; sunrise temple and volcano tours are most reliable in the dry months."
+  - topic: yogyakarta
+    fact: "Solo (Surakarta), the sister royal city, lies about 65 km east and is a common add-on for batik and palace visits."
+  - topic: yogyakarta
+    fact: "Java sits in Western Indonesia Time (WIB), UTC+7; there is no daylight saving."
+
+local_tips:
+  - tip: "Book Borobudur's climb-to-the-top ticket online days ahead, not at the gate. The daily quota is small and fills early — turning up hoping to climb often means you only get the courtyard ticket and stare up at the terraces from the lawn."
+  - tip: "Setumbu Hill sunrise and the Borobudur climb are two separate paid sites. Many travellers think the hill photo IS Borobudur access. Plan and pay for both if you want both."
+  - tip: "On a clear dry-season morning, skip Setumbu Hill and shoot from the temple terraces instead — the light hits the stupas directly. Reserve Setumbu for when you specifically want the misty silhouette layered with the volcano behind."
+  - tip: "Buy the combined Borobudur + Prambanan ticket if you're doing both within 48 hours. It's cheaper than two separate foreigner tickets and the operators rarely volunteer this."
+  - tip: "For Jomblang, the slot is everything. The 'Heaven's Light' only shows mid-morning on sun, and the daily cap is tiny — a booking made a week out beats a five-star review left by someone who got lucky on the weather."
+  - tip: "Merapi jeep tours are priced per jeep, not per head. Two people pay the same jeep rate as four, so a couple should join others or accept the higher per-person cost — don't assume you're being overcharged."
+  - tip: "Carry cash in small notes for Gunungkidul and Merapi. Cave villages, jeep crews, warungs, and parking men do not take cards, and the nearest reliable ATM can be an hour back toward the city."
+  - tip: "Gojek and Grab (ride apps) work well inside the city but get patchy and expensive out at the temples, caves, and volcano. For day trips beyond the ring road, a hired car-and-driver is cheaper than stacking app rides."
+  - tip: "The Ramayana Ballet's open-air theatre (lit temple as backdrop) only runs in the dry season. In the wet months it moves indoors — beautiful, but if the outdoor stage is your reason to go, check which venue is scheduled before booking."
+  - tip: "For Bromo–Ijen, choose the drop-in-Bali itinerary only if you actually want to end in Bali. If you're returning to Yogyakarta, the round-trip versions exist and save you a one-way flight back."
+  - tip: "Visit the Prambanan complex from the back. Walk to Sewu temple first thing while the tour buses crowd the main Shiva temple, then circle back — you get the headline temple with thinner crowds an hour later."
+  - tip: "Ijen's gas mask is not a souvenir prop. The blue-fire vent fumes genuinely sting and choke; stay upwind, follow the miners' read of the wind, and don't chase the photo into a gas pocket."
+  - tip: "Sunrise tours quote the pickup time, not the start time. A 'Borobudur sunrise' pickup at 03:30 means an hour-plus drive in the dark — eat something first, because nothing is open at that hour out there."
+  - tip: "Dieng is cold. Travellers pack for tropical Java and then shiver through the Sikunir pre-dawn climb. Bring a real jacket; single-digit Celsius mornings are normal at 2,000 m."
+  - tip: "Negotiate the full day, not each stop. When you hire a driver, agree the route, the wait time, and the total price up front in writing on your phone — renegotiating at every temple gate sours the whole day."
+  - tip: "Domestic and foreigner ticket prices differ sharply at the big temples. This is official and posted, not a scam — don't argue with the cashier about it, just budget the foreigner rate."
+  - tip: "Friday mornings at the Kraton and some palace sections can have restricted hours for prayers and ceremonies. Check the day before rather than building your only afternoon around it."
+
+tourist_mistakes:
+  - mistake: "Expecting to walk up Borobudur freely like the old photos. Since 2023 the terraces need a capped timed ticket and the special sandals. People arrive with the climb as their whole plan and find it sold out."
+  - mistake: "Treating Setumbu Hill as 'inside' Borobudur. They pay for the hill sunrise, then are surprised there's a second, larger ticket for the temple itself a few kilometres away."
+  - mistake: "Trying to 'do' Borobudur, Merapi, and Prambanan as a relaxed day. It's doable but it's a 12-hour march; travellers underestimate the driving between them and end up rushing the temple they came for."
+  - mistake: "Going to Jomblang without a reservation and a weather check. The 'Heaven's Light' is a sun-and-timing phenomenon — show up cloudy at 2 pm and you've descended 60 m to see a dim cave."
+  - mistake: "Wearing white shoes and good clothes to the Merapi jeep tour. The 2010 lava tracks are black volcanic dust; you come back coated. Sandals and clothes you don't love are the move."
+  - mistake: "Booking a 'Bromo Ijen Bali' 3-day trip while planning to fly home from Yogyakarta. The drop-off is in Banyuwangi/Bali — they end up stranded on the wrong side of Java."
+  - mistake: "Climbing toward the Ijen blue fire without the gas mask actually on. Tourists pull it off for photos at the vent and get a lungful of sulfur dioxide — it's not the place to be casual."
+  - mistake: "Saving Prambanan for late afternoon in the wet season and getting rained out at an open site with little shelter, then blaming the temple. Morning visits dodge the typical afternoon storms."
+  - mistake: "Assuming cards work everywhere. At Pindul, Gunungkidul warungs, jeep crews, and parking, it's cash only — and travellers get caught short an hour from an ATM."
+  - mistake: "Underdressing for Dieng or the pre-dawn volcano starts. People in shorts and flip-flops at a 2,000–2,900 m sunrise are genuinely miserable and sometimes turn back."
+  - mistake: "Photographing the Ijen sulfur miners as scenery and walking past. A few words and a fair tip — or buying a small carved sulfur souvenir — changes the encounter from intrusion to exchange."
+  - mistake: "Booking the cheapest 'sunrise' temple package and discovering it's a Setumbu Hill view, not temple access, then arguing at the gate. Read what 'climb to the top' versus 'sunrise from the hill' actually includes."
+
+personal_stories:
+
+  - title: "My father's hands on the Karmawibhangga"
+    setting: "Borobudur, around 2008, two years into my guiding"
+    story: "My father guided Borobudur for thirty years, and when I started at twenty he took me to the hidden base — the covered Karmawibhangga reliefs almost no visitor sees. He put my hand on the stone and said the carvers buried these panels of cause and consequence on purpose, that some lessons are meant to hold up the whole structure from underneath. I had been rattling off dates and measurements to my groups like a schoolboy. That morning I understood the temple is an argument about how to live, not a list of numbers."
+    lesson: "Lead with meaning; the facts are scaffolding, not the building."
+    suitable_pages: [borobudur-sunrise-tour, borobudur-prambanan-tour]
+
+  - title: "The German couple and the word 'finest'"
+    setting: "Setumbu Hill, dry season 2017"
+    story: "A retired German couple booked me partly because I speak conversational German, and at the top of Setumbu the husband asked me to name the finest temple in Java. I started toward Borobudur out of habit, then stopped and said it depends what you came to feel — Prambanan reaches up like a prayer, Borobudur asks you to walk inward. He nodded and told me he trusted me more for not selling him a winner. We watched the mist lift off the Kedu plain in silence after that."
+    lesson: "Travellers can smell a sales pitch; honesty about trade-offs earns the trust a superlative never will."
+    suitable_pages: [borobudur-sunrise-tour, prambanan-temple-tour]
+
+  - title: "Mbah Maridjan's empty house"
+    setting: "Merapi lava-tour route, Kaliadem, 2016"
+    story: "On the jeep route I always stop at the ground where the gatekeeper Mbah Maridjan died in the 2010 eruption refusing to leave his post. A young traveller laughed that it was superstition to stay for a mountain. I told her my own family evacuated that year, that the mountain feeds Sleman's soil and takes lives in the same breath, and that respect here is not superstition but memory. She went quiet, and at the next stop she asked the museum keeper his story instead of taking a selfie."
+    lesson: "The volcano is a neighbour we live beside, not a backdrop — guests feel the difference when you treat it that way."
+    suitable_pages: [merapi-jeep-tour, borobudur-merapi-prambanan-tour]
+
+  - title: "Sixty metres down, and the light came"
+    setting: "Jomblang Cave, late morning, 2019"
+    story: "I had taken an Australian family down into Jomblang and the sky had been grey all morning, so I warned them the Heaven's Light might not show. We reached the Grubug chamber and waited, and just past eleven the clouds tore open and the beam dropped through the cave roof like something poured. The youngest, maybe ten, whispered that it looked like the cave was breathing light. I have descended that rope hundreds of times and I still got the chills."
+    lesson: "Set honest expectations about the weather — then the gift, when it comes, is theirs to keep."
+    suitable_pages: [jomblang-cave-tour, yogyakarta-adventure-tour]
+
+  - title: "The tripod I left on the terrace"
+    setting: "Borobudur upper terraces, 2018"
+    story: "I am a photography nerd and I once got so absorbed framing a stupa against the dawn that I left my tripod up top and only realised at the bus. A young attendant ran it down to me, and instead of just thanking him I asked how he learned the light here — he'd grown up in the village below. We still trade sunrise notes by message years later. My camera has cost me money but it has bought me half my friendships on this hill."
+    lesson: "Curiosity about the people who work a place opens doors no ticket does."
+    suitable_pages: [borobudur-sunrise-tour, yogyakarta-photography-tour]
+
+  - title: "Bicycle spokes and the satay man"
+    setting: "Imogiri, south of the city, 2022"
+    story: "I took a food-loving French guide to a sate klathak stall after the city tours reopened, and she couldn't believe the satay was grilled on actual bicycle spokes. The old seller explained the metal carries heat into the centre of the goat so it cooks evenly with just salt. She had eaten satay all over Asia and said this was the first time anyone showed her why a thing is made the way it is. We stayed two hours; her 'quick lunch' became the story of her trip."
+    lesson: "Food tours land when you explain the how and the why, not just hand over the plate."
+    suitable_pages: [yogyakarta-food-tour, yogyakarta-cooking-class]
+
+  - title: "Rain on the Ramayana"
+    setting: "Prambanan open-air theatre, shoulder season 2022"
+    story: "I'd told a honeymoon couple the open-air ballet with the lit temple behind was worth the gamble in shoulder season, and of course a storm rolled in twenty minutes before. The show shifted indoors to the covered theatre and I braced for disappointment. But up close the dancers' faces and the gamelan filled the room, and the wife said she'd have missed all that detail from the open-air seats. I learned to stop apologising for the indoor stage."
+    lesson: "A change of plan isn't a downgrade — frame the alternative for what it gives, not what it takes away."
+    suitable_pages: [prambanan-temple-tour, ramayana-ballet-tour]
+
+  - title: "The blue fire and the wind"
+    setting: "Kawah Ijen crater, before dawn, 2023"
+    story: "On an Ijen climb I watched a tourist pull off his gas mask to film the blue flames and walk straight into a shifting gust of sulfur. He doubled over coughing within seconds; a miner grabbed his arm and walked him upwind without a word. The man had hauled eighty kilos of sulfur up that crater and still stopped to save a stranger's lungs. My guest tipped him everything in his pocket and didn't take another photo without asking."
+    lesson: "On a working volcano, follow the people who work it — their read of the mountain outranks any itinerary."
+    suitable_pages: [bromo-ijen-tour, yogyakarta-bali-overland-tour]
+
+  - title: "Kotagede silver and my daughter"
+    setting: "Kotagede old town, cycling route, 2023"
+    story: "I brought my eldest along on a quiet cycling tour through Kotagede, the old Mataram capital, and an elderly silversmith let her hammer a small pendant. She asked him why he still worked by hand when machines are faster, and he said a machine can't leave a person's mark in the metal. My guests, two Dutch sisters, stopped translating in their heads and just watched. The whole tour slowed to the pace of that one bench."
+    lesson: "The countryside tours sell themselves when you let real craftspeople speak — don't fill every silence."
+    suitable_pages: [yogyakarta-cycling-tour, kotagede-cycling-tour]
+
+  - title: "Dieng cold and the thermos of tea"
+    setting: "Sikunir Hill, Dieng Plateau, pre-dawn 2023"
+    story: "A couple from Singapore booked Dieng's golden sunrise dressed for tropical Java, and at 2,000 metres before dawn they were shaking. I keep a thermos of ginger tea for exactly this, and we shared it climbing Sikunir in the dark. When the sun broke over the sea of cloud, the husband said the cold had made the warmth of that moment sharper. I've never guided Dieng without the thermos since."
+    lesson: "A small, practical kindness — warmth, water, a spare layer — is remembered longer than any commentary."
+    suitable_pages: [dieng-plateau-tour, yogyakarta-multi-day-tour]
+
+  - title: "The panel I read wrong for years"
+    setting: "Borobudur galleries, 2015"
+    story: "For nearly a decade I'd explained a particular relief as a shipwreck scene, repeating what an older guide taught me. A visiting archaeologist gently corrected me — it was a different voyage tale entirely — and I felt my face burn in front of my group. I thanked her, said so to the guests, and corrected my script that afternoon. My father always said a guide who can't say 'I was wrong' is selling, not teaching."
+    lesson: "Admit and fix the error in front of the guests; your credibility grows, it doesn't shrink."
+    suitable_pages: [borobudur-sunrise-tour, borobudur-prambanan-tour]
+
+  - title: "Cat-rice at midnight"
+    setting: "Angkringan near Tugu station, 2022"
+    story: "A solo backpacker on my night food walk was nervous about the angkringan — the tiny 'nasi kucing' portions and the kopi joss with its glowing charcoal looked strange to her. I told her this is where students and becak drivers actually eat, that the small portion is the point, you order three and talk all night. By the second glass of charcoal coffee she was trading jokes with the stall owner in broken Indonesian. She messaged me a year later that it was her favourite night in Asia."
+    lesson: "The everyday, unglamorous spots win travellers over precisely because they're real — don't over-polish the itinerary."
+    suitable_pages: [yogyakarta-food-tour, yogyakarta-night-tour]
+
+  - title: "Two temples, one straight line"
+    setting: "The road between Mendut and Borobudur, 2017"
+    story: "Driving guests from Mendut to Borobudur, I pulled over and showed them on the map how Mendut, Pawon, and Borobudur fall on an almost perfect straight line. A skeptical traveller said it was probably coincidence. I told him the people who hauled two million stones without mortar didn't do much by accident — and his whole posture toward the day changed. He started asking what else was deliberate."
+    lesson: "One well-placed detail can flip a guest from passive looking to active seeing."
+    suitable_pages: [borobudur-sunrise-tour, borobudur-prambanan-tour]
+
+  - title: "The jeep that wouldn't start"
+    setting: "Merapi slope, Kaliurang, 2023"
+    story: "Our lava-tour jeep stalled deep on the dust track and the young driver was mortified in front of my guests. Instead of fuming we got out, and I used the unplanned twenty minutes to point out how the 2010 flow had reshaped the entire valley below us. By the time the engine turned over, the guests said the breakdown spot had the finest view of the morning. The driver, Aan, now requests my groups."
+    lesson: "When something goes wrong, your calm sets the mood — a hitch can become the story if you let it."
+    suitable_pages: [merapi-jeep-tour, borobudur-merapi-prambanan-tour]
+
+  - title: "My father's last sunrise"
+    setting: "Borobudur, remembered from before 2020"
+    story: "Before he passed in 2020, my father climbed Borobudur with me one last quiet morning, slower than he used to, leaning on the warm stone. He didn't recite anything; he just watched the light fill the valley he'd guided for thirty years. He told me the temple would outlast both of us and the only thing we leave in it is how we made people feel. I carry that up every dawn I work."
+    lesson: "We don't own these monuments; we're caretakers of how visitors experience them."
+    suitable_pages: [borobudur-sunrise-tour, yogyakarta-photography-tour]
+
+practical_logistics:
+  - item: "Borobudur Temple"
+    gps: "-7.6079, 110.2038"
+    hours: "Daily ~06:30–16:30; structure-climb in capped timed slots"
+    price: "Foreigner courtyard ~IDR 375,000 (~USD 23); climb-up ~IDR 455,000 (~USD 28); domestic far lower"
+    notes: "Book climb slot online in advance; upanat sandals and local guide required for terraces."
+  - item: "Punthuk Setumbu (Setumbu Hill sunrise)"
+    gps: "-7.6056, 110.1717"
+    hours: "Gate opens ~04:00 for sunrise; arrive before 05:00 dry season"
+    price: "Foreigner ~IDR 60,000"
+    notes: "About 4 km west of Borobudur; separate site, separate ticket. Short uphill walk from car park."
+  - item: "Prambanan Temple"
+    gps: "-7.7520, 110.4915"
+    hours: "Daily ~06:30–17:00"
+    price: "Foreigner ~IDR 375,000 (~USD 23); combined with Borobudur discounted; domestic ~IDR 50,000"
+    notes: "Walk to Sewu temple (north end) early to beat the Shiva-temple crowds."
+  - item: "Ramayana Ballet, Prambanan"
+    gps: "-7.7530, 110.4880"
+    hours: "Show starts ~19:30; open-air Trimurti stage in dry season, indoor in wet season"
+    price: "~IDR 125,000–450,000+ by seating tier"
+    notes: "Confirm open-air vs indoor venue before booking; separate from temple entry."
+  - item: "Merapi Lava Jeep (Kaliurang/Kaliadem base)"
+    gps: "-7.6300, 110.4300 (Kaliurang area)"
+    hours: "Sunrise departures ~04:30; daytime runs through morning"
+    price: "Per jeep: short ~IDR 350,000, medium ~IDR 450,000, long ~IDR 600,000+ (seats ~4)"
+    notes: "Cash only; expect heavy volcanic dust. Stops: Kaliadem bunker, Museum Sisa Hartaku, Batu Alien."
+  - item: "Jomblang Cave (Goa Jomblang)"
+    gps: "-8.0286, 110.6389"
+    hours: "Prime 'Heaven's Light' window ~10:00–12:00; arrive for morning briefing"
+    price: "Domestic ~IDR 450,000; foreigner up to ~IDR 1,000,000 (includes harness, rope crew, boots)"
+    notes: "Strict small daily cap — reserve days ahead. ~60 m rope descent; weather-dependent light beam."
+  - item: "Pindul Cave (Goa Pindul) cave tubing"
+    gps: "-7.9472, 110.6486"
+    hours: "Daily daytime; ~45–60 min float"
+    price: "~IDR 40,000–100,000 cave tubing"
+    notes: "Life jackets provided; fine for non-swimmers. Cash only. Often paired with Jomblang same day."
+  - item: "Yogyakarta International Airport (YIA), Kulon Progo"
+    gps: "-7.9056, 110.0567"
+    hours: "Airport operations daily"
+    price: "Airport rail/shuttle to city varies; car transfer ~1–1.5 hrs"
+    notes: "~40 km west of the city; replaced Adisutjipto for most commercial flights from 2019–2020."
+  - item: "Mount Bromo sunrise viewpoint (Penanjakan area)"
+    gps: "-7.9425, 112.9530 (Bromo crater); Penanjakan ~-7.9170, 112.9510"
+    hours: "Jeep pickup ~02:30–03:00 for sunrise"
+    price: "Part of multi-day packages; standalone jeep + entry varies"
+    notes: "Cold at altitude before dawn; bring a jacket. Crater rim reached on foot/horse after sand crossing."
+  - item: "Kawah Ijen (blue fire), Banyuwangi"
+    gps: "-8.0581, 114.2417"
+    hours: "Hike start ~01:00–02:00 to catch blue fire before dawn; ~1.5–2 hr climb"
+    price: "Foreigner crater entry higher on weekends; included in most tour packages"
+    notes: "Gas mask essential at vents; stay upwind. World's largest acidic crater lake at summit."
+  - item: "Dieng Plateau / Sikunir Hill sunrise"
+    gps: "-7.2017, 109.9080 (Dieng); Sikunir ~-7.2280, 109.9320"
+    hours: "Pre-dawn climb for 'Golden Sunrise'; allow ~30–45 min uphill"
+    price: "Modest local entries; usually bundled in day-trip/multi-day package"
+    notes: "Genuinely cold (single-digit °C nights). Includes Arjuna temple complex, Telaga Warna, Sikidang crater."
+  - item: "Wijilan gudeg street (near Kraton)"
+    gps: "-7.8086, 110.3650"
+    hours: "Many warungs open midday into evening; some 24-hr"
+    price: "Gudeg plate ~IDR 20,000–40,000"
+    notes: "Cash; the traditional gudeg alley east of the palace. Gudeg Yu Djum among the known names."
+
+persona_exemplars:
+
+  - context: "borobudur intro voice"
+    text: "I grew up watching my father guide this hill, so let me be straight with you: Borobudur is not a photo stop, it is a walk. You enter at the bottom among carved scenes of ordinary human desire and you climb, terrace by terrace, until the carvings fall away into seventy-two bare stupas and open sky. Two million stones, no mortar, ninth century — but the numbers are not the point. The point is that the people who built it wanted your body to feel the journey, not just your eyes to see a monument. Go slowly. The temple is patient; it waited a thousand years under the ash for you."
+
+  - context: "honest expectation-setting"
+    text: "Here is the part most listings won't tell you. Since 2023 you cannot simply wander up Borobudur the way the old postcards show. The terraces need a separate timed ticket, a small daily quota, woven sandals to spare the stone, and a local guide. If climbing to the top is your dream, book it days ahead — not at the gate, where I have watched too many travellers learn the word 'sold out' the hard way. If you only get the courtyard ticket, the view from the lawn is still worth the dawn. But know which one you're buying."
+
+  - context: "merapi"
+    text: "Merapi is my neighbour. I live in Sleman on her southern slope, and so did the families whose houses you'll see half-buried on the jeep route. In 2010 the mountain killed over three hundred people and the gatekeeper who refused to leave his post. We don't take her lightly here. So when you ride the lava tour across that black dust, yes, it's an adventure — but the bunker and the little museum of melted belongings are not props. They're memory. Wear shoes you can ruin, bring cash, and give the mountain the respect a Javanese family gives an elder who can both feed you and take everything away."
+
+  - context: "prambanan"
+    text: "Prambanan reaches upward where Borobudur turns inward. It is the largest Hindu temple in Indonesia, built around the same century as its Buddhist neighbour, and the two standing within an hour of each other tells you something true about old Java: faiths shared the same plain. Walk the inner balustrade and read the Ramayana carved into the stone, then do what the tour buses don't — head north to the Sewu Buddhist complex before the crowds wake up. Come back to the soaring Shiva temple an hour later and you'll have it almost to yourself."
+
+  - context: "caves adventure"
+    text: "Jomblang is the one tour where I cannot promise you the magic, and I'd rather say so. You harness up, you drop sixty metres on a rope into a green sinkhole, and then you wait in the dark of the Grubug chamber for the sun to do its work. On a clear morning around eleven, a single beam falls through the cave roof and the whole cavern seems lit from heaven. On a cloudy afternoon, it's a damp, beautiful, ordinary cave. That's why you book the morning slot days ahead and watch the forecast. Nature doesn't take reservations."
+
+  - context: "cycling / village life"
+    text: "If the temples are Java's grand statements, the village cycling is its quiet sentence. We roll out early through the rice fields toward the Menoreh Hills or the old streets of Kotagede, the first Mataram capital, before the heat sits down on the day. We stop where tofu is pressed by hand, where a silversmith still leaves his own mark in the metal because a machine can't. It's flat, it's slow, and it's the Java most temple visitors drive straight past without seeing."
+
+  - context: "food culture"
+    text: "They call Yogyakarta 'Kota Gudeg' — gudeg city — and once you taste the young jackfruit stewed half a day in coconut milk and palm sugar until it turns sweet and brown, you'll understand the nickname. But the food I'd send you to find is the cheap, late, real stuff: the angkringan stalls near Tugu station serving tiny 'cat-rice' portions and kopi joss, black coffee with a glowing coal dropped in. That's where students and becak drivers eat. Order three small plates, sit on the mat, and let the night go long."
+
+  - context: "sate klathak detail"
+    text: "Let me tell you why the satay south of the city tastes different. Out toward Imogiri they grill goat on iron bicycle spokes instead of bamboo skewers, and the metal carries the heat into the centre of the meat so it cooks evenly with nothing but salt. No heavy peanut sauce hiding the meat — just fire, iron, and good goat. The first time I explained that to a French guest who'd eaten satay across Asia, she stayed two hours. The how is half the flavour."
+
+  - context: "multi-day overland"
+    text: "If you have three days and a taste for volcanoes, the overland run east is the trip people remember for years. Bromo at dawn, a cone rising out of a sea of sand inside a giant caldera; then Ijen in the small hours, where sulfur burns electric blue in the dark and miners haul yellow slabs up from a turquoise acid lake. It ends with a ferry to Bali if that's where you're headed. Just book the right version — I've met travellers who chose the Bali drop-off and then needed to be back in Yogyakarta. Read the ending before you start."
+
+  - context: "dieng plateau"
+    text: "Dieng surprises people. Up at two thousand metres on a cold Central Java plateau sit the Arjuna temples — small, weathered Hindu shrines older than Borobudur and Prambanan both, from the seventh or eighth century. Before dawn you climb Sikunir Hill in air cold enough to see your breath, and the sun rises over a floor of cloud. Bring a real jacket; I carry a thermos of ginger tea because every season someone arrives dressed for the tropics and learns the highlands don't care."
+
+  - context: "photographer's note"
+    text: "I'm a photography nerd, so a word on light. For Borobudur, a clear dry-season morning from the terraces beats the famous Setumbu Hill silhouette, because the sun strikes the stupas directly and the stone goes gold. Save Setumbu for the mornings you want mist and the volcano stacked behind. At Prambanan, late afternoon rakes the carvings sideways and the reliefs come alive. And at Ijen, the blue fire only exists in darkness — once dawn touches the crater, it's gone. Plan your shots around the light, not your schedule."
+
+  - context: "closing trust voice"
+    text: "I don't run a tour company and I'm not here to sell you a 'winner.' Sixteen years on these temples and my father's thirty before me taught me that the finest day in Yogyakarta is the one matched to what you actually came to feel — quiet and old, or high and wild, or slow and local. Tell me that, and I'll tell you straight which tours fit and which to skip. That honesty is the only thing I have that a glossy listing doesn't."
+
+product_metadata:
+
+  borobudur:
+    - product_code: "214335P1"
+      title: "Borobudur Sunrise from setumbu Hill , Merapi Volcano & Prambanan Full Day Tour"
+      rating: 4.91
+      review_count: 1082
+      why_recommended: "The most-reviewed option by a wide margin (1,082 reviews) and a strong rating — it bundles the three headline sights with a Setumbu sunrise, which is what most first-timers actually want."
+      who_not_for: "Not for travellers who tire easily or hate early starts — this is a 12-hour day beginning before dawn, and three major sites in one day is a march."
+      what_makes_unique: "Combines the misty Setumbu Hill sunrise silhouette with the Borobudur climb ticket, Merapi, and Prambanan in a single sweep."
+      ticket_inclusions: "States the Borobudur climb-to-the-top ticket is included; offers three rate tiers all including tickets. Confirm whether the climb slot is guaranteed at booking."
+    - product_code: "429704P2"
+      title: "Borobudur ClimbUP guaranteed (sunrise option)& Prambanan Day Tour"
+      rating: 4.96
+      review_count: 157
+      why_recommended: "Highest rating in the Borobudur set (4.96) and explicitly guarantees the capped climb-to-the-top access — the single thing travellers most often get caught out on."
+      who_not_for: "Skip if you don't care about climbing the terraces and only want courtyard photos — you'd pay for access you won't use."
+      what_makes_unique: "Climb access is guaranteed in writing, with a sunrise option; removes the gamble of the daily quota."
+      ticket_inclusions: "Guaranteed full temple access and climb to the top, plus Prambanan; sunrise add-on optional."
+    - product_code: "356790P2"
+      title: "Borobudur Full Climb Up And Prambanan ALL INCLUSIVE PRIVATE Tour"
+      rating: 4.96
+      review_count: 165
+      why_recommended: "For couples or families wanting to set their own pace — a private 10-hour tour at 4.96 with full climb access and no shared-group rush."
+      who_not_for: "Not for budget solo travellers; private pricing is far higher per head than the shared full-day options."
+      what_makes_unique: "Private vehicle and guide with total schedule flexibility — spend as long as you like at each site."
+      ticket_inclusions: "All-inclusive: Borobudur full climb-up ticket and Prambanan entry stated as included."
+    - product_code: "214335P5"
+      title: "Borobudur Temple Climb To The Top & Prambanan Temple - 1 day tour"
+      rating: 4.93
+      review_count: 664
+      why_recommended: "A focused two-temple day (no volcano) with heavy social proof (664 reviews) — ideal if you want depth at the temples rather than racing to Merapi too."
+      who_not_for: "Not for those wanting the Merapi jeep experience in the same day — this trims the volcano to give the temples more time."
+      what_makes_unique: "Adds Mendut (oldest Buddhist temple in the area) alongside Borobudur and Prambanan, keeping the focus cultural."
+      ticket_inclusions: "Climb-to-the-top Borobudur ticket and Prambanan entry; Mendut included on the route."
+
+  prambanan:
+    - product_code: "214335P1"
+      title: "Borobudur Sunrise from setumbu Hill , Merapi Volcano & Prambanan Full Day Tour"
+      rating: 4.91
+      review_count: 1082
+      why_recommended: "If you want Prambanan as part of the classic full sweep, this is the most-reviewed, well-rated way to fold it into a single day with Borobudur and Merapi."
+      who_not_for: "Not for those wanting unhurried time at Prambanan — it's the final stop after a long day, often in afternoon heat."
+      what_makes_unique: "Prambanan closes a heritage-and-adventure loop that started with a sunrise — a satisfying arc for first-timers."
+      ticket_inclusions: "Prambanan entry included; Borobudur climb ticket included per stated rate tiers."
+    - product_code: "356790P2"
+      title: "Borobudur Full Climb Up And Prambanan ALL INCLUSIVE PRIVATE Tour"
+      rating: 4.96
+      review_count: 165
+      why_recommended: "Private and flexible (4.96), so you can give Prambanan real time — walk to Sewu, linger on the Ramayana reliefs — instead of a rushed 40 minutes."
+      who_not_for: "Higher cost; not for solo budget travellers content with a shared group."
+      what_makes_unique: "Self-paced private format lets you explore the wider Prambanan park (Sewu, Lumbung) most groups skip."
+      ticket_inclusions: "Prambanan entry and full Borobudur climb access stated as all-inclusive."
+    - product_code: "214335P3"
+      title: "Borobudur Climb To The Top, Prambanan Temple And Ramayana Ballet"
+      rating: 4.91
+      review_count: 116
+      why_recommended: "The standout for culture lovers — it pairs the temples with the evening Ramayana Ballet at Prambanan, turning a day tour into a full-arc cultural experience."
+      who_not_for: "Not for travellers who want an early night; the ballet runs into the evening, making for a very long day."
+      what_makes_unique: "Includes the Ramayana Ballet — the Hindu epic carved on Prambanan's walls, performed live with the temple as backdrop (venue varies by season)."
+      ticket_inclusions: "Borobudur climb ticket, Prambanan entry, and Ramayana Ballet seating; confirm open-air vs indoor venue for the date."
+    - product_code: "429704P2"
+      title: "Borobudur ClimbUP guaranteed (sunrise option)& Prambanan Day Tour"
+      rating: 4.96
+      review_count: 157
+      why_recommended: "Top-rated temple pairing (4.96) with guaranteed Borobudur access and a solid Prambanan visit — reliable for travellers who want certainty."
+      who_not_for: "Not for those wanting a volcano or cave element; this is purely the two great temples."
+      what_makes_unique: "Guaranteed climb access removes the quota gamble while still including the largest Hindu temple."
+      ticket_inclusions: "Guaranteed Borobudur full access plus Prambanan entry."
+
+  merapi:
+    - product_code: "339870P7"
+      title: "Private Merapi Volcano 4WD Jeep Tour from Yogyakarta"
+      rating: 4.84
+      review_count: 56
+      why_recommended: "A dedicated, private Merapi jeep experience — choose this when the volcano is your main interest, not a rushed add-on between temples."
+      who_not_for: "Not for those wanting temples too; this is volcano-only. Also not for anyone who dislikes rough, dusty 4WD tracks."
+      what_makes_unique: "Visits the home-turned-museum of belongings buried by the 2010 eruption, putting the human story front and centre."
+      ticket_inclusions: "Private 4WD jeep with driver; jeep priced per vehicle (seats ~4). Confirm whether site/museum entries are included."
+    - product_code: "260222P1"
+      title: "Borobudur, Merapi Volcano and Prambanan Temple Private Tour"
+      rating: 4.85
+      review_count: 102
+      why_recommended: "A private full-day combining the Merapi jeep with both temples — strong for groups wanting the volcano without a shared bus."
+      who_not_for: "Lower-rated than some peers (4.85) and a packed day; not for those wanting deep time at any single stop."
+      what_makes_unique: "Merapi jeep explored by 4WD plus the two UNESCO temples, all private and self-paced."
+      ticket_inclusions: "Private vehicle, jeep ride, and temple entries; verify whether Borobudur climb access is included or courtyard-only."
+    - product_code: "375680P1"
+      title: "Yogyakarta: Borobudur Merapi Jeep & Pramban Temple One Day Tour"
+      rating: 5.0
+      review_count: 33
+      why_recommended: "A clean 5.0 across 33 reviews for the full Merapi-jeep-plus-temples day — a reliable all-rounder if you want one tour to cover the highlights."
+      who_not_for: "Smaller review base than the headline options; not for travellers who want the guaranteed Borobudur climb specifically."
+      what_makes_unique: "Frames the route through the 8th-century Buddhist temple trio (Borobudur, Pawon, Mendut) alongside the Merapi jeep."
+      ticket_inclusions: "Merapi jeep, Borobudur and Prambanan entries; confirm climb-up vs courtyard ticket at booking."
+    - product_code: "429704P1"
+      title: "Mount Merapi Sunrise , Jomblang cave and Pindul Cave Tour"
+      rating: 4.97
+      review_count: 30
+      why_recommended: "For adventure-first travellers — pairs a Merapi sunrise with the Jomblang descent and Pindul tubing, skipping temples entirely (4.97)."
+      who_not_for: "Not for temple seekers or anyone uneasy with a 60 m rope descent; it's a physically demanding nature day."
+      what_makes_unique: "Three distinct nature experiences — mountain sunrise, vertical cave, underground river — in one packed day."
+      ticket_inclusions: "Merapi sunrise access, Jomblang descent gear/crew, and Pindul tubing stated; confirm Jomblang slot guarantee."
+
+  caves:
+    - product_code: "209662P2"
+      title: "Jomblang Cave and Pindul Cave Tour from Yogyakarta"
+      rating: 4.96
+      review_count: 28
+      why_recommended: "A focused, well-rated (4.96) Jomblang-plus-Pindul day — the cleanest pairing of the vertical cave and the gentle tubing river."
+      who_not_for: "Not for those with claustrophobia or a fear of rope descents; the 60 m drop is non-negotiable for Jomblang."
+      what_makes_unique: "Targets the 'Heaven's Light' beam in Grubug chamber plus the relaxed Pindul float — high adventure then easy reward."
+      ticket_inclusions: "Jomblang harness, rope crew and boots; Pindul tube and life jacket. Note Jomblang's daily cap — book early."
+    - product_code: "190696P5"
+      title: "1 day Yogyakarta Tour Jomblang cave and Pindul Cave tubing"
+      rating: 4.87
+      review_count: 86
+      why_recommended: "The most-reviewed cave option (86) at a solid 4.87 — proven logistics for the Jomblang + Pindul combination from the city."
+      who_not_for: "Thin tour description; not for travellers who want detailed itinerary certainty before booking."
+      what_makes_unique: "High volume of completed trips means the operator handles the tight Jomblang slot timing routinely."
+      ticket_inclusions: "Jomblang descent equipment and Pindul tubing; confirm lunch and pickup details at booking."
+    - product_code: "378357P8"
+      title: "Yogyakarta Shared Tour: Jomblang & Pindul Cave with DRONE Option"
+      rating: 5.0
+      review_count: 30
+      why_recommended: "Perfect 5.0 across 30 reviews and a shared-tour price point — strong value for the photographer who wants aerial footage of the descent."
+      who_not_for: "Shared format means less schedule control; not for those wanting a private pace at the cave."
+      what_makes_unique: "Optional drone capture of the Jomblang sinkhole and Heaven's Light — a genuinely distinct add-on."
+      ticket_inclusions: "Jomblang gear, Pindul tubing, shared transport; drone footage as a paid option."
+    - product_code: "260060P1"
+      title: "Yogyakarta: Jomblang Cave Guided Tour with Lunch & Pickup"
+      rating: 5.0
+      review_count: 9
+      why_recommended: "A 5.0-rated Jomblang-focused option with lunch and hotel pickup spelled out — good for travellers who want only the headline cave done well."
+      who_not_for: "Smaller review base (9); skips Pindul, so not for those wanting the tubing too."
+      what_makes_unique: "Concentrates the whole day on Jomblang and the light beam rather than splitting attention across two caves."
+      ticket_inclusions: "Jomblang descent gear and crew, lunch, and pickup included."
+
+  cycling:
+    - product_code: "126668P2"
+      title: "Menoreh Village Cycling"
+      rating: 4.98
+      review_count: 675
+      why_recommended: "The clear leader in cycling — 675 reviews at 4.98. Rice fields, rivers, and the Menoreh Hills, with genuine village life along the way."
+      who_not_for: "Not for those wanting city sights or temples; this is rural countryside riding."
+      what_makes_unique: "Rides through working farmland with stops to see how rice and village crops are actually grown and processed."
+      ticket_inclusions: "Bicycle, helmet, guide, and village stops; confirm whether refreshments/lunch are included."
+    - product_code: "126668P4"
+      title: "Jogja Hidden Gems - Cycling Tour"
+      rating: 4.98
+      review_count: 180
+      why_recommended: "4.98 across 180 reviews, with a sustainability and local-insight focus — for travellers who want the Java most visitors never see."
+      who_not_for: "Not for those expecting marquee landmarks; the appeal is the everyday and the overlooked."
+      what_makes_unique: "Curated 'hidden gems' routing emphasises authentic local interaction over photo-op stops."
+      ticket_inclusions: "Bicycle, helmet, guide; shared format keeps the price accessible."
+    - product_code: "126668P3"
+      title: "Kotagede Royal Route - Cycling Tour"
+      rating: 4.95
+      review_count: 238
+      why_recommended: "A 3-hour ride (4.95, 238 reviews) through Kotagede, the old Mataram capital — history and silver craft woven into the labyrinth of old streets."
+      who_not_for: "Not for those wanting rice-field countryside; this is an urban-heritage route through the old town."
+      what_makes_unique: "Explores the first Mataram Sultanate capital and its silversmith heritage — culture by bicycle, not just scenery."
+      ticket_inclusions: "Bicycle, helmet, guide; heritage-site context along the route."
+    - product_code: "197620P9"
+      title: "FUN Cycling Tour De Temples"
+      rating: 5.0
+      review_count: 30
+      why_recommended: "A 5.0-rated ride that threads villages and cultural landmarks on two wheels — a relaxed way to see countryside and temples together."
+      who_not_for: "Smaller review base (30); not for those wanting a pure rural ride with no cultural stops."
+      what_makes_unique: "Frames temple-area landmarks from the saddle, through peaceful villages rather than the main road."
+      ticket_inclusions: "Bicycle, helmet, guide, village and landmark stops."
+
+  food-tours:
+    - product_code: "110844P2"
+      title: "Small-Group Walking and Food Tour by Night in Yogyakarta"
+      rating: 4.96
+      review_count: 332
+      why_recommended: "The standout food tour — 332 reviews at 4.96, capped at eight travellers, packed with street-food stops in the city centre after dark."
+      who_not_for: "Not for those wanting a sit-down restaurant meal or anyone uneasy eating at street stalls."
+      what_makes_unique: "Small-group night format gets you into the real angkringan-and-street-food side of Jogja with no more than seven others."
+      ticket_inclusions: "Guide and multiple food tastings along the walk; confirm number of tastings and drinks."
+    - product_code: "214335P21"
+      title: "Yogyakarta Cooking Class and Market Tour"
+      rating: 4.96
+      review_count: 103
+      why_recommended: "Hands-on cooking at 4.96 (103 reviews) — starts at a local market and teaches tumpeng, the ceremonial yellow rice cone, with real cultural context."
+      who_not_for: "Not for travellers short on time or wanting to just eat rather than cook."
+      what_makes_unique: "Pairs a guided market shop with cooking a dish tied to Javanese ceremony, explaining the why behind the food."
+      ticket_inclusions: "Market tour, ingredients, chef-led class, and the meal you cook."
+    - product_code: "101834P3"
+      title: "Yogyakarta Historical and Food Tour"
+      rating: 5.0
+      review_count: 12
+      why_recommended: "A 5.0-rated evening walk blending heritage sites, night market, and food — for travellers who want history and culinary context together."
+      who_not_for: "Smaller review base (12); a 3-hour evening format, not a deep food-only crawl."
+      what_makes_unique: "Weaves the city's history through its night-time food and night-park atmosphere in one walk."
+      ticket_inclusions: "Guide, walking route, and food tastings; confirm specific stops."
+    - product_code: "209224P4"
+      title: "Yogyakarta Cooking Class"
+      rating: null
+      review_count: null
+      why_recommended: "A market-to-table class led by Ibu Herni — a warm, home-style option for travellers who want a personal cooking experience over a big-group tour."
+      who_not_for: "No ratings yet — not for travellers who rely on heavy social proof before booking."
+      what_makes_unique: "Begins by buying ingredients at the local market with the host, an intimate home-kitchen format."
+      ticket_inclusions: "Market shop with the host, ingredients, and the cooking class meal."
+
+  multi-day:
+    - product_code: "69059P13"
+      title: "From Yogyakarta: Bromo Sunrise & Ijen Volcano with Bali Drop-off"
+      rating: 4.99
+      review_count: 107
+      why_recommended: "The strongest multi-day option — 4.99 across 107 reviews — a small-group 3-day Bromo + Ijen run ending in Bali, ideal if Bali is your next stop."
+      who_not_for: "Not for those returning to Yogyakarta; the trip ends in Bali, not Java. Also demanding pre-dawn starts two days running."
+      what_makes_unique: "Combines Bromo sunrise, Ijen blue fire, and a Bali ferry drop-off — a complete east-Java overland arc in three days."
+      ticket_inclusions: "Transport, park entries, and Bali drop-off; confirm accommodation, meals, and Ijen gas-mask provision."
+    - product_code: "209662P6"
+      title: "Yogyakarta Bromo Ijen Tour 3 Days"
+      rating: 5.0
+      review_count: 17
+      why_recommended: "A private car-and-driver 3-day Bromo + Ijen at a perfect 5.0 — more flexible and comfortable than a shared bus for the long Java legs."
+      who_not_for: "Private pricing is higher; still ends with a Ketapang/Bali crossing, so not for those needing to return to Yogyakarta."
+      what_makes_unique: "Private vehicle throughout the long overland route, ending at Ketapang harbour for the Bali ferry."
+      ticket_inclusions: "Private car and driver, park entries; confirm hotels, meals, and crater fees."
+    - product_code: "69059P7"
+      title: "From Yogyakarta: Dieng Plateau Golden Sunrise Private Day Trip"
+      rating: 5.0
+      review_count: 14
+      why_recommended: "A 5.0-rated private day trip to Dieng — the off-the-beaten-path choice for travellers wanting highland temples and Sikunir's golden sunrise without the multi-day commitment."
+      who_not_for: "Not for those wanting volcanoes like Bromo/Ijen; Dieng is gentler highland scenery and ancient temples. Cold pre-dawn climb required."
+      what_makes_unique: "Visits Java's oldest Hindu temples (Arjuna complex), the Colour Lake, and Sikidang crater in one private day."
+      ticket_inclusions: "Private transport, guide, and site entries; bring warm layers — confirm breakfast/meal arrangements."
+    - product_code: "260222P15"
+      title: "Yogyakarta to Bali 5 Days Borobudur Bromo and Ijen Tour"
+      rating: 5.0
+      review_count: 4
+      why_recommended: "A 5-day overland that opens with the two UNESCO temples before heading east to Bromo and Ijen — for travellers who want the full Java-to-Bali story unhurried."
+      who_not_for: "Small review base (4) and a 5-day commitment; not for those on a tight schedule or budget."
+      what_makes_unique: "Bookends the volcano route with Borobudur and Prambanan, covering Java's headline heritage and nature in one journey ending in Bali."
+      ticket_inclusions: "Multi-day transport, temple and park entries, Bali drop-off; confirm hotels, meals, and Ijen equipment."
