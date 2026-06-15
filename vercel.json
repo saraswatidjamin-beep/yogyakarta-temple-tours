@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{"type": "host", "value": "yogyakarta-temple-tours.com"}],
+      "destination": "https://www.yogyakarta-temple-tours.com/$1",
+      "permanent": true
+    }
+  ]
+}

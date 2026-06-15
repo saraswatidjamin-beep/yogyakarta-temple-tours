@@ -1,10 +1,17 @@
 # ============================================================
 # YOGYAKARTA CONTENT BANK
 # Voice: Rama Kusuma — Javanese temple guide, Sleman
-# Guiding since 2006 (16 years). Photographer. Honest, direct.
+# Guiding since 2006 (20 years). Photographer. Honest, direct.
 # Currency note: conversions at ~IDR 16,000 = USD 1 (2026).
 # Prices and hours shift; figures reflect 2024–2026 published rates.
 # ============================================================
+
+
+disclosure: |
+  Rama earns a commission when readers book through the Viator links on this site, 
+  at no extra cost to the traveller. This does not affect which tours are recommended — 
+  every tour passes three checks: guide quality, safety record, and value.
+  Rama does not run a tour company. He does not sell packages.
 
 destination_facts:
 
@@ -257,7 +264,7 @@ personal_stories:
 
   - title: "Bicycle spokes and the satay man"
     setting: "Imogiri, south of the city, 2022"
-    story: "I took a food-loving French guide to a sate klathak stall after the city tours reopened, and she couldn't believe the satay was grilled on actual bicycle spokes. The old seller explained the metal carries heat into the centre of the goat so it cooks evenly with just salt. She had eaten satay all over Asia and said this was the first time anyone showed her why a thing is made the way it is. We stayed two hours; her 'quick lunch' became the story of her trip."
+    story: "I took a food-loving French guest to a sate klathak stall after the city tours reopened, and she couldn't believe the satay was grilled on actual bicycle spokes. The old seller explained the metal carries heat into the centre of the goat so it cooks evenly with just salt. She had eaten satay all over Asia and said this was the first time anyone showed her why a thing is made the way it is. We stayed two hours; her 'quick lunch' became the story of her trip."
     lesson: "Food tours land when you explain the how and the why, not just hand over the plate."
     suitable_pages: [yogyakarta-food-tour, yogyakarta-cooking-class]
 
@@ -413,7 +420,7 @@ persona_exemplars:
     text: "I'm a photography nerd, so a word on light. For Borobudur, a clear dry-season morning from the terraces beats the famous Setumbu Hill silhouette, because the sun strikes the stupas directly and the stone goes gold. Save Setumbu for the mornings you want mist and the volcano stacked behind. At Prambanan, late afternoon rakes the carvings sideways and the reliefs come alive. And at Ijen, the blue fire only exists in darkness — once dawn touches the crater, it's gone. Plan your shots around the light, not your schedule."
 
   - context: "closing trust voice"
-    text: "I don't run a tour company and I'm not here to sell you a 'winner.' Sixteen years on these temples and my father's thirty before me taught me that the finest day in Yogyakarta is the one matched to what you actually came to feel — quiet and old, or high and wild, or slow and local. Tell me that, and I'll tell you straight which tours fit and which to skip. That honesty is the only thing I have that a glossy listing doesn't."
+    text: "I don't run a tour company and I'm not here to sell you a 'winner.' Twenty years on these temples and my father's thirty before me taught me that the right day in Yogyakarta is the one matched to what you actually came to feel — quiet and old, or high and wild, or slow and local. Tell me that, and I'll tell you straight which tours fit and which to skip. I earn a commission when you book through the links on this site, at no extra cost to you — that's how I keep it free. That honesty is the only thing I have that a glossy listing doesn't."
 
 product_metadata:
 
@@ -616,7 +623,7 @@ product_metadata:
       title: "Yogyakarta Cooking Class"
       rating: null
       review_count: null
-      why_recommended: "A market-to-table class led by Ibu Herni — a warm, home-style option for travellers who want a personal cooking experience over a big-group tour."
+      why_recommended: "A newer listing by Ibu Herni — unproven on reviews but a warm, home-style option for travellers who want a personal cooking experience over a big-group tour."
       who_not_for: "No ratings yet — not for travellers who rely on heavy social proof before booking."
       what_makes_unique: "Begins by buying ingredients at the local market with the host, an intimate home-kitchen format."
       ticket_inclusions: "Market shop with the host, ingredients, and the cooking class meal."
