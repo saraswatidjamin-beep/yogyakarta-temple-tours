@@ -1,0 +1,26 @@
+{
+  "site": "yogyakarta-temple-tours",
+  "started": "2026-06-15T19:31:27.787351+00:00",
+  "phases": {
+    "preflight": {
+      "status": "PASS",
+      "ts": "2026-06-15T19:36:47.543322+00:00",
+      "page_shas": {
+        "about.html": "69e8d8f7506309700bf5736b920963d4268edd446ea7bd39206427e5fece3da9",
+        "borobudur-vs-prambanan.html": "f88bef5c9143daccd6c8e99319105ee0f7a0e4b2045254cf20b9e3aa06d3548f",
+        "borobudur/index.html": "486b626d5d1efbc5cf598c1223a9e9f9648260078a38978f531d6f7e0107140c",
+        "caves/index.html": "48fa584c94af3721a8d3a94e847b8ea4d8cdf9fce329ac56a2b1a95584a47486",
+        "contact.html": "516f9fb3c4189a12c47560106cb4bab7606f2c5e759deb9e13aa3a6c521c7421",
+        "cycling/index.html": "5ac5533fba55ea63a2e6addd314638f31b306bf4ae94e8558f7b7594aed9353d",
+        "food-tours/index.html": "a0855700ea9da6c1ca3b7c1c1e027172db32ae2179f651e5253cd4d50be5d87f",
+        "index.html": "1a89dd6a2e07a66fc91ee7c2f101983e18610c35f8963b169e4298209f2a4bc5",
+        "jeep-vs-hiking.html": "96e220eb86e4a71b137374d5e4310c0e0350fb1ad9e807ac30d140bd8c0852dd",
+        "merapi/index.html": "06f97bf34d5f8ad6de6f4b2be92f6d89e37a7c9e7d5e05eef97a789ba7e094dc",
+        "multi-day/index.html": "3008d4e2e2cc65f71d22285155656198bda0879eb3446c211955ae63f0cc8526",
+        "planning.html": "10c128495ffea55dd0183c911c1c2981ed1a0c21040bb9feda18a0c40fbbccab",
+        "prambanan/index.html": "51087f8a450e95891f3d9cc4502c246db86ae60b41bd6607c1a413ecb813c397",
+        "privacy.html": "e971f4be732731d37c285f257164775331705af447a8ceb602c913c7cc57d654"
+      }
+    }
+  }
+}

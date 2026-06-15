@@ -1,0 +1,49 @@
+<!--
+  homepage-monetization-section.html
+  REQUIRED INCLUDE for all affiliate site homepages.
+  Place BETWEEN the intro section and the category grid.
+  
+  Contains 5 product cards featuring the top-rated tour from each major category.
+  Each card uses Rama-style voice: 1-2 sentences, inline Viator link, who-it's-for framing.
+  
+  ADAPT PER SITE:
+  - Replace {{category_slugs}} with actual site categories
+  - Replace {{product_codes}} with top-rated product from each category's content bank
+  - Replace {{ratings}} and {{review_counts}} from Viator API
+  - Replace {{image_filenames}} with locally-downloaded product images
+  - Rewrite blurbs in the site author's voice (use content bank exemplars)
+-->
+
+    <section class="featured-tours">
+      <h2>Where most travellers start</h2>
+      <p class="intro">Five tours I'd put a friend on. Each one earns its place here on guide quality first, safety second, value third — the same three checks every tour on this site has to pass. Pick the one that feels like your day.</p>
+
+      <!-- CARD PATTERN — repeat 5 times, one per category -->
+      <div class="product-card">
+        <img src="/images/{{product_image_1}}" alt="{{specific_alt_text}}" loading="lazy" width="720" height="480">
+        <div class="product-card-body">
+          <h3>{{tour_name_1}}</h3>
+          <div class="rating">★ {{rating_1}} ({{review_count_1}} reviews)</div>
+          <p>{{blurb_in_author_voice_with_inline_viator_link_1}}</p>
+        </div>
+      </div>
+
+    </section>
+
+<!--
+  PLACEMENT: Insert between the intro </section> and <section class="categories">
+  
+  EXAMPLE (from yogyakarta-temple-tours.com):
+  
+      </section>  ← intro closes
+
+      <section class="featured-tours">
+        <h2>Where most travellers start</h2>
+        ...
+      </section>
+
+      <section class="categories">  ← category grid opens
+  
+  VERIFICATION: After inserting, run monetization_audit.py.
+  Homepage must have ≥5 product cards AND a category grid to pass.
+-->
