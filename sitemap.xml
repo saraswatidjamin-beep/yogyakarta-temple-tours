@@ -1,59 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/about</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/about"/>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/about.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/best-borobudur-sunrise-tours-compared/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/best-borobudur-sunrise-tours-compared/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/best-borobudur-sunrise-tours-compared/"/>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/best-time-to-visit/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/best-time-to-visit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/best-time-to-visit/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/borobudur/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur/sunrise/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur/sunrise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur/sunrise/"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/caves/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/caves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/caves/"/>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/contact.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/contact</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/contact"/>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/cycling/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/cycling/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/cycling/"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/food-tours/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/food-tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/food-tours/"/>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/jeep-vs-hiking.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/getting-around/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/getting-around/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/getting-around/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/jeep-vs-hiking</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/jeep-vs-hiking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/jeep-vs-hiking"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/merapi/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/merapi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/merapi/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/merapi/safety/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/merapi/safety/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/merapi/safety/"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/multi-day/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/multi-day/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/multi-day/"/>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/planning.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/photography-tips/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/photography-tips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/photography-tips/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/planning</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/planning"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/planning"/>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/prambanan/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/prambanan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/prambanan/"/>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.yogyakarta-temple-tours.com/privacy.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <loc>https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/privacy</loc>
+    <lastmod>2026-06-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/privacy"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary/"/>
+    <priority>0.7</priority>
   </url>
 </urlset>
