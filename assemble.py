@@ -45,7 +45,7 @@ def nav_with_active(slug):
     return f"""<nav class="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="/">Yogyakarta Temple Tours</a>
-      <button class="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <div class="nav-links">
         {' '.join(nav_links)}
       </div>
@@ -76,6 +76,9 @@ def head_block(title, description, og_title, og_desc, canonical, og_image):
   <link rel="icon" sizes="32x32" href="/images/favicon-32x32.png" type="image/png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" hreflang="en" href="{canonical}">
+  <link rel="alternate" hreflang="x-default" href="{canonical}">
+  <script src="/js/main.js" defer></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-52JY0TL356"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-52JY0TL356',{{'anonymize_ip':true}});</script>
 </head>
