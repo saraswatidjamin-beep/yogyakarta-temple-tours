@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/about</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/about"/>
     <priority>0.6</priority>
@@ -27,6 +27,13 @@
     <lastmod>2026-06-23</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur-climb-up-tours-guaranteed-access/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur-climb-up-tours-guaranteed-access/"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur-sunrise-from-setumbu-hill-culture-tour-review</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur-sunrise-from-setumbu-hill-culture-tour-review/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur-sunrise-from-setumbu-hill-culture-tour-review/"/>
     <priority>0.7</priority>
   </url>
   <url>
@@ -94,7 +101,7 @@
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/"/>
     <priority>1.0</priority>
@@ -177,8 +184,13 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.yogyakarta-temple-tours.com/private-merapi-volcano-4wd-jeep-tou-adventure-tour-review</loc>
+    <lastmod>2026-06-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.yogyakarta-temple-tours.com/private-vs-shared-temple-tours-yogyakarta</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -190,17 +202,17 @@
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-cycling-tours-menoreh-vs-kotagede</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-food-tours-comparison</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-temple-tours-comparison</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
