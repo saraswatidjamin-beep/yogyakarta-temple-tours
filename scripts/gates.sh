@@ -15,19 +15,22 @@ ANTIWORDS="breathtaking|stunning|unforgettable|magical|paradise|hidden gem|incre
 echo "━━━ VERCEL BUILD GATE — $(date -u +%Y-%m-%dT%H:%M:%SZ) ━━━"
 echo ""
 
-# 1. Anti-word scan (English — awk strips scripts, grep checks body with word boundaries)
-echo "[1/3] Anti-word scan..."
+# 1. Anti-word scan (changed files only)
+echo "[1/3] Anti-word scan (changed files only)..."
 FOUND=0
-for f in $(find "$SITE_DIR" -name '*.html' -not -path '*/.git/*' -not -path '*/backup*/*' -not -path '*/.review/*' 2>/dev/null); do
-    # awk removes everything between <script> and </script> inclusive (macOS compatible)
-    # grep -inEw uses word boundaries to avoid partial word matches (e.g., "best" in "asbestos")
-    hits=$(awk '/<script/,/<\/script>/ {next} 1' "$f" | grep -inEw "$ANTIWORDS" | grep -v '<meta' || true)
-    if [ -n "$hits" ]; then
-        echo "  ❌ ANTI-WORD in $(basename $f):"
-        echo "$hits" | head -5 | sed 's/^/     /'
-        FOUND=1
-    fi
-done
+CHANGED=$(git diff --name-only HEAD 2>/dev/null | grep '\.html$' || true)
+if [ -z "$CHANGED" ]; then
+    echo "  ✅ No HTML files changed"
+else
+    for f in $CHANGED; do
+        hits=$(awk '/<script/,/<\/script>/ {next} 1' "$SITE_DIR/$f" | grep -inEw "$ANTIWORDS" | grep -v '<meta' || true)
+        if [ -n "$hits" ]; then
+            echo "  ❌ ANTI-WORD in $f:"
+            echo "$hits" | head -5 | sed 's/^/     /'
+            FOUND=1
+        fi
+    done
+fi
 if [ "$FOUND" -eq 0 ]; then
     echo "  ✅ Clean"
 else
@@ -35,8 +38,35 @@ else
 fi
 echo ""
 
+# 1b. Language audit (changed files only)
+echo "[1b/4] Language audit..."
+LANG_ISSUES=0
+if [ -n "$CHANGED" ]; then
+  for f in $CHANGED; do
+    rel="$f"
+    in_de=$(echo "$rel" | grep -q '^de/' && echo 1 || echo 0)
+    in_es=$(echo "$rel" | grep -q '^es/' && echo 1 || echo 0)
+    lang_tag=$(head -5 "$SITE_DIR/$f" 2>/dev/null | grep -o 'lang="[^"]*"' | head -1 || echo "")
+    noindex=$(grep -c 'name="robots".*noindex' "$SITE_DIR/$f" 2>/dev/null || echo 0)
+    if [ "$lang_tag" = 'lang="de"' ] && [ "$in_de" != "1" ] && [ "$noindex" = "0" ]; then
+      echo "  ⚠️  $f: lang=de at EN path without noindex"
+      LANG_ISSUES=1
+    fi
+    if [ "$lang_tag" = 'lang="es"' ] && [ "$in_es" != "1" ] && [ "$noindex" = "0" ]; then
+      echo "  ⚠️  $f: lang=es at EN path without noindex"
+      LANG_ISSUES=1
+    fi
+  done
+fi
+if [ "$LANG_ISSUES" -eq 0 ]; then
+  echo "  ✅ Language tags consistent"
+else
+  FAIL=1
+fi
+echo ""
+
 # 2. Word count floor (editorial pages)
-echo "[2/3] Word counts..."
+echo "[2/4] Word counts..."
 for f in $(find "$SITE_DIR" -name '*.html' -not -path '*/.git/*' -not -path '*/backup*/*' -not -path '*/.review/*' 2>/dev/null); do
     basename=$(basename "$f")
     # Skip utility pages
@@ -62,7 +92,7 @@ fi
 echo ""
 
 # 3. Viator link count (every editorial page must have ≥1)
-echo "[3/3] Viator link coverage..."
+echo "[3/4] Viator link coverage..."
 for f in $(find "$SITE_DIR" -name '*.html' -not -path '*/.git/*' -not -path '*/backup*/*' -not -path '*/.review/*' 2>/dev/null); do
     basename=$(basename "$f")
     case "$basename" in
