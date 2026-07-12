@@ -2,113 +2,143 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ramakusuma.com/3-food-tours-yogyakarta</loc>
+    <loc>https://www.yogyakarta-temple-tours.com/about</loc>
+    <lastmod>2026-07-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/about"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/about"/>\n    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/best-time-to-visit</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/best-time-to-visit"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/best-time-to-visit"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur-climb-up-tours-guaranteed-access</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur-climb-up-tours-guaranteed-access"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur-climb-up-tours-guaranteed-access"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur-vs-prambanan"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/borobudur/sunrise</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/borobudur/sunrise"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/borobudur/sunrise"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/caves</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/caves"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/caves"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/contact</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/contact"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/contact"/>\n    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/cycling</loc>
+    <lastmod>2026-07-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/cycling"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/cycling"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/food-tours</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/food-tours"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/food-tours"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/getting-around</loc>
+    <lastmod>2026-06-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/getting-around"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/getting-around"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/"/>\n    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/jeep-vs-hiking</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/jeep-vs-hiking"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/jeep-vs-hiking"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/merapi-jeep-tours-compared</loc>
+    <lastmod>2026-07-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/merapi-jeep-tours-compared"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/merapi-jeep-tours-compared"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/merapi</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/merapi"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/merapi"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/merapi/safety</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/merapi/safety"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/merapi/safety"/>\n    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yogyakarta-temple-tours.com/mount-merapi-sunrise-vs-from-yogyakarta-bro-sunset-yogyakar</loc>
     <lastmod>2026-07-12</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/3-sunset-tours-yogyakarta</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/multi-day</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/multi-day"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/multi-day"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/9-culture-tours-yogyakarta</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/photography-tips</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/photography-tips"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/photography-tips"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-and-prambanan-one-day-guide</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/planning</loc>
+    <lastmod>2026-07-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/planning"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/planning"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-climbup-gu-vs-borobudur-full-climb-culture-yogyaka</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/prambanan</loc>
+    <lastmod>2026-07-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/prambanan"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/prambanan"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-climbup-guaranteed-sunri-culture-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet</loc>
+    <lastmod>2026-06-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/prambanan/ramayana-ballet"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-sunrise-fr-vs-borobudur-climbup-gu-culture-yogyaka</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/privacy</loc>
+    <lastmod>2026-06-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/privacy"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/privacy"/>\n    <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-sunrise-from-setumbu-hill-culture-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary</loc>
+    <lastmod>2026-06-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-3-day-itinerary"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/borobudur-sunrise-tours-compared</loc>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta</loc>
     <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/culture-tours-buyers-guide-yogyakarta</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-and-market-food-tour-review</loc>
+    <lastmod>2026-07-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-and-market-food-tour-review"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-and-market-food-tour-review"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/food-tours-buyers-guide-yogyakarta</loc>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta</loc>
     <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta"/>\n    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.ramakusuma.com/from-yogyakarta-bro-vs-from-yogyakarta-die-sunset-yogyakar</loc>
+    <loc>https://www.yogyakarta-temple-tours.com/yogyakarta-historical-and-food-tour-food-tour-review</loc>
     <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/from-yogyakarta-bromo-sunrise-ij-sunset-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/jomblang-cave-tours-heavens-light-booking</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/mount-merapi-sunrise-jomblang-cav-sunset-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/private-merapi-volcano-4wd-jeep-tou-adventure-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/private-vs-shared-temple-tours-yogyakarta</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/small-group-walking-and-food-tour-b-hiking-tour-review</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/sunset-tours-buyers-guide-yogyakarta</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/yogyakarta-cycling-tours-menoreh-vs-kotagede</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/yogyakarta-food-tours-comparison</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.ramakusuma.com/yogyakarta-temple-tours-comparison</loc>
-    <lastmod>2026-07-12</lastmod>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.yogyakarta-temple-tours.com/yogyakarta-historical-and-food-tour-food-tour-review"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.yogyakarta-temple-tours.com/yogyakarta-historical-and-food-tour-food-tour-review"/>\n    <priority>0.7</priority>
   </url>
 </urlset>
