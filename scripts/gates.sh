@@ -119,4 +119,10 @@ else
 fi
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
+# GATE_MODE=warn → report violations but never block deploy
+if [ "${GATE_MODE:-block}" = "warn" ]; then
+    echo "  ℹ️  GATE_MODE=warn — reporting violations, NOT blocking deploy"
+    FAIL=0
+fi
+
 exit $FAIL
