@@ -133,7 +133,9 @@ for fp in all_html_files:
         issues.append("Option A/B/C/D placeholder")
     if re.search(r'\bProduct [0-9]\b', html):
         issues.append("Product N placeholder")
-    if re.search(r'\{[a-z_]+\}', html):
+    # Check {variable} only in visible text (exclude <script> tags — JSON-LD false positives)
+    visible = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL)
+    if re.search(r'\{[a-z_]+\}', visible):
         issues.append("{variable} placeholder")
     if re.search(r'\bTBD\b', html):
         issues.append("TBD placeholder")
