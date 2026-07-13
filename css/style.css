@@ -186,6 +186,7 @@ nav {
 }
 
 @media (max-width: 768px) {
+  html, body { overflow-x: hidden; }
   .nav-inner { padding: 0 1.5rem; }
   .nav-toggle { display: flex; }
   
