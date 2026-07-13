@@ -24,11 +24,11 @@
     },
     "phase3": {
       "status": "PASS",
-      "ts": "2026-07-13T08:16:13.616406+00:00",
+      "ts": "2026-07-13T08:16:30.593596+00:00",
       "page_shas": {
         "3-food-tours-yogyakarta/index.html": "b99927f7901e6e53dc5c8c5659e1f9535baac32a269acf612ae32f1f951571c0",
         "3-sunset-tours-yogyakarta/index.html": "ee05719200901e48d0bc6eeae6449af7e556d3e6923898608e6fb3c0d796527f",
-        "9-culture-tours-yogyakarta/index.html": "ad6f92564cbbaaf8857442126c66798519eaa6fd159b886b249a42cd93cd48b1",
+        "9-culture-tours-yogyakarta/index.html": "08f7bfc3b5c519b9805be73decd28a79098ba9597f0c2c58e7791ed8aa517f0b",
         "about.html": "e969883f1f9bb8d77ca7c81a23b49cdf9988a19b3074f6db2491fc1398f7a07a",
         "best-time-to-visit/index.html": "85a061b647f95254a8065c15416db682d0fc37d3b70cbb2095c21f3a2b97d813",
         "borobudur-and-prambanan-one-day-guide/index.html": "6f69e1e237c190aac75ce75b18c260342377c02f3d0aad01433391f781f1e07d",
@@ -69,12 +69,12 @@
         "small-group-walking-and-food-tour-b-hiking-tour-review/index.html": "c91b569799a4eb9367fd3af809ea28d593d1e0ee467dbaa2f3661f253c1ad9c1",
         "sunset-tours-buyers-guide-yogyakarta/index.html": "f8d842a5450725d62fcfc7e521c2b1aba278837ef42753fef368b373eb74550b",
         "yogyakarta-3-day-itinerary/index.html": "6b5bb4498e848577fc35c8d2196ce512da856259496bc83bbeaf45ba3ca7c0c6",
-        "yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta/index.html": "83160a6f5c3a9a28a35ab599347931d1b0c8c7e9b0e7c3320853e376604068fb",
-        "yogyakarta-cooking-class-and-market-food-tour-review/index.html": "35d2fea24e9ae964a9f4dde042b2ffb13c9c8407521de08f5221cf422648c60e",
+        "yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta/index.html": "88ff9275cd2729ab1b0b000c23b5d14b7b15ea4814ec2c779c7b03c5b0f42700",
+        "yogyakarta-cooking-class-and-market-food-tour-review/index.html": "5dfea12ba33a6dfd07fb2853b3fb94a94114f5f9e338a754583e785bae312f8e",
         "yogyakarta-cycling-tours-menoreh-vs-kotagede/index.html": "80acbfa081049b16c7286725cf809c79af4b3784a554873d1f585422e72a7114",
         "yogyakarta-food-tours-comparison/index.html": "4ee8ab5a3f562c0a6566a52d1c8080baf3de1e7580b4a02b8f889f5f422ce37e",
-        "yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta/index.html": "0952ffaea116092a1ee0cb2e0f2e087f2435ace9168ee36b605aebccc54c377b",
-        "yogyakarta-historical-and-food-tour-food-tour-review/index.html": "4b2c0eab0c457efe9a1c22f90b99387b81c7b435d3d06ae69efca8ff9a4c3167",
+        "yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta/index.html": "f5701d4a661deb5b19507d3617664387ab578ebce3848fb86a22ea08d0be70a8",
+        "yogyakarta-historical-and-food-tour-food-tour-review/index.html": "f7674710660dc0ee6d763833b6840feda37e9a8fd28fbdcbef6be99ee4f6e57d",
         "yogyakarta-temple-tours-comparison/index.html": "6308bbbf85a2ee3539f44a279de4c25c685d535be9bed2fe93d2987192cfbd0b"
       }
     }
