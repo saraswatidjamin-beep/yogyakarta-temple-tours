@@ -276,6 +276,13 @@ for fp in all_html_files:
     checks.append({"check": "consistency", "result": "WARN" if issues else "PASS",
                    "evidence": issues[:3] if issues else ""})
     
+    
+    # YOGYA-SPECIFIC
+    issues = []
+    if "borobudurpark.com" in html: issues.append("old tourism domain")
+    checks.append({"check":"banned_domains","result":"FAIL" if issues else "PASS","evidence":issues[:3]})
+    if issues: file_pass = False
+
     results.append({
         "file": rel,
         "checks": checks,
