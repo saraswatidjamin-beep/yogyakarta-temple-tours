@@ -24,7 +24,7 @@
     },
     "phase3": {
       "status": "PASS",
-      "ts": "2026-07-13T08:16:30.593596+00:00",
+      "ts": "2026-07-13T10:49:46.593055+00:00",
       "page_shas": {
         "3-food-tours-yogyakarta/index.html": "b99927f7901e6e53dc5c8c5659e1f9535baac32a269acf612ae32f1f951571c0",
         "3-sunset-tours-yogyakarta/index.html": "ee05719200901e48d0bc6eeae6449af7e556d3e6923898608e6fb3c0d796527f",
@@ -58,14 +58,14 @@
         "merapi/safety/index.html": "083d3ff3dd81d85ad08199fc31beaecaf0b669f5e5e9cb496449e6c0eb47f458",
         "mount-merapi-sunrise-jomblang-cav-sunset-tour-review/index.html": "83d6a1f4abf9c11914854a50084445c95325d1fcdc52ef6d3728198856d3bf6e",
         "mount-merapi-sunrise-vs-from-yogyakarta-bro-sunset-yogyakar/index.html": "5517fc0830aa5d1039a1a22d7388fb60990240f71548dc1b8f61a8753238760f",
-        "multi-day/index.html": "9735694ff92c9324f9493519367985c4d5e51620847c2a6c31d3abd3c716e9a7",
+        "multi-day/index.html": "42ccab16bdbd5adcedf998f5fd9f1ff4144b28613c2b96dba97e59b0479fe932",
         "photography-tips/index.html": "f453befc030bb9393bc77ebf932eaa9bd616ba4dce5d6d4cad3fd57d8484e583",
         "planning.html": "ddb1094916665ebdb2a4c0e06ba821a569b9342ea83bf3dcff441fded95dfea3",
         "prambanan/index.html": "84fc94fcd871bf5778659f504dfb657dd143eefebfd092f629f388289cecc243",
         "prambanan/ramayana-ballet/index.html": "852c6698be78200bacefd1923db1141012409cce9a9f81a641105a847315219c",
         "privacy.html": "44d4749b9bf8f2ce562ab049833a2e1c0b2ca23fde6228dd624b688cb08477d1",
         "private-merapi-volcano-4wd-jeep-tou-adventure-tour-review/index.html": "8af3fed04edf689e03c5eaa66e1f7e275630be3d4cf8a973530d23c22a0b140f",
-        "private-vs-shared-temple-tours-yogyakarta/index.html": "a81d780f57c0bc74ce8f427217a4034ad895a5b882a21d7afaa78a2a4653c96d",
+        "private-vs-shared-temple-tours-yogyakarta/index.html": "b3ec5f491fa728bf7be8127f247aa98d92c11ac4fe7cb869624178a5ea0b5e0b",
         "small-group-walking-and-food-tour-b-hiking-tour-review/index.html": "c91b569799a4eb9367fd3af809ea28d593d1e0ee467dbaa2f3661f253c1ad9c1",
         "sunset-tours-buyers-guide-yogyakarta/index.html": "f8d842a5450725d62fcfc7e521c2b1aba278837ef42753fef368b373eb74550b",
         "yogyakarta-3-day-itinerary/index.html": "6b5bb4498e848577fc35c8d2196ce512da856259496bc83bbeaf45ba3ca7c0c6",
@@ -75,7 +75,7 @@
         "yogyakarta-food-tours-comparison/index.html": "4ee8ab5a3f562c0a6566a52d1c8080baf3de1e7580b4a02b8f889f5f422ce37e",
         "yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta/index.html": "f5701d4a661deb5b19507d3617664387ab578ebce3848fb86a22ea08d0be70a8",
         "yogyakarta-historical-and-food-tour-food-tour-review/index.html": "f7674710660dc0ee6d763833b6840feda37e9a8fd28fbdcbef6be99ee4f6e57d",
-        "yogyakarta-temple-tours-comparison/index.html": "6308bbbf85a2ee3539f44a279de4c25c685d535be9bed2fe93d2987192cfbd0b"
+        "yogyakarta-temple-tours-comparison/index.html": "e500b73d18ef6658dd656fc2212d5bd3e0d6bd7bbbddda5f6f89519d86194e81"
       }
     }
   }
