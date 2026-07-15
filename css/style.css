@@ -280,13 +280,34 @@ nav {
 .content { max-width: var(--max-width); margin: 0 auto;
 .content p, .content li { max-width: 72ch; }
 }
-/* Apply 72ch constraint to all body sections (not just .content wrapper) */
+/* Apply 72ch constraint to ALL text containers — not just section direct children */
+/* Claude vision review Jul 2026: .comp-card .verdict .product-card-body .author-info were unconstrained */
 main section > p,
 main section > ul,
 main section > ol,
 .intro p,
 .honesty p,
-.honesty li { max-width: 72ch; margin-left: auto; margin-right: auto; }
+.honesty li,
+.comp-card p,
+.verdict p,
+.product-card-body p,
+.author-info p,
+main > p { max-width: 72ch; margin-left: auto; margin-right: auto; }
+
+/* Visual hierarchy: stronger H3, differentiated heading scale (Claude vision Jul 2026) */
+.entry-content h3, main h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.75rem;
+}
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); }
+h4 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* CTA button contrast boost */
+.cta-button { font-weight: 700; }
 
 /* Breadcrumbs */
 .breadcrumbs {
