@@ -654,3 +654,25 @@ main p { text-align: left; }
 
 /* Tighten disclosure box top spacing */
 .affiliate-disclosure { margin: 1.5rem 0 2rem; }
+/* === Visual QA — privacy + contact fixes (Claude vision Jul 2026) === */
+
+/* Privacy: left-align intro paragraphs with H2s (was auto-centered) */
+.intro p { margin-left: 0; margin-right: auto; }
+
+/* Contact: spacing rhythm */
+main h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  scroll-margin-top: 80px;
+}
+main h2:first-of-type { margin-top: 0; }
+main p { margin-bottom: 1.25rem; }
+
+/* Contact: mobile nav collapse + hero sizing */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .hero, .page-header { min-height: 280px; }
+  h1 { font-size: 2.25rem; }
+  h2 { font-size: 1.5rem; }
+  main { padding: 0 1rem; }
+}
