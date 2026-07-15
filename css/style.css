@@ -280,6 +280,13 @@ nav {
 .content { max-width: var(--max-width); margin: 0 auto;
 .content p, .content li { max-width: 72ch; }
 }
+/* Apply 72ch constraint to all body sections (not just .content wrapper) */
+main section > p,
+main section > ul,
+main section > ol,
+.intro p,
+.honesty p,
+.honesty li { max-width: 72ch; margin-left: auto; margin-right: auto; }
 
 /* Breadcrumbs */
 .breadcrumbs {
