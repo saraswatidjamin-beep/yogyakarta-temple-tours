@@ -277,7 +277,9 @@ nav {
 
 /* Content Section */
 .section { padding: 3rem 1.5rem; }
-.content { max-width: var(--max-width); margin: 0 auto; }
+.content { max-width: var(--max-width); margin: 0 auto;
+.content p, .content li { max-width: 72ch; }
+}
 
 /* Breadcrumbs */
 .breadcrumbs {
