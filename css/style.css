@@ -480,6 +480,16 @@ h4 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
   display: flex; align-items: center; justify-content: center;
   font-family: var(--font-heading); font-size: 1.5rem; flex-shrink: 0;
 }
+img.author-avatar {
+  display: block;
+  background: transparent;
+  object-fit: cover;
+}
+/* about page: section spacing + mobile padding (Claude vision Jul 2026) */
+.intro + .intro { margin-top: 2.5rem; }
+@media (max-width: 600px) {
+  .intro { padding: 0 1rem; }
+}
 .author-info h4 { margin-bottom: 0.2rem; }
 .author-title { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem; }
 .author-info p { font-size: 0.9rem; }
@@ -631,3 +641,16 @@ main p { text-align: left; }
     height: 130px;
   }
 }
+/* === Visual QA — about.html fixes (Claude vision Jul 2026) === */
+
+/* Tighten section spacing between adjacent .intro blocks */
+.intro + .intro { margin-top: 2.5rem; }
+
+/* Ensure consistent horizontal padding on narrow phones */
+@media (max-width: 600px) {
+  .intro { padding: 0 1rem; }
+  .breadcrumbs { padding: 0.5rem 1rem; }
+}
+
+/* Tighten disclosure box top spacing */
+.affiliate-disclosure { margin: 1.5rem 0 2rem; }
