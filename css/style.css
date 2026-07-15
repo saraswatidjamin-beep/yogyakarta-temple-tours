@@ -578,6 +578,16 @@ tr:hover td { background: #F8F6F3; }
 
 /* Utility */
 .text-center { text-align: center; }
+
+/* Visual QA — responsive comparison table (Claude vision iteration 2) */
+.comparison-table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 640px) {
+  .comparison-table { font-size: 0.85rem; }
+  .comparison-table th, .comparison-table td { padding: 0.5rem 0.75rem; }
+}
+
+/* Visual QA — ensure left-aligned body text (force override justified default) */
+main p { text-align: left; }
 .mt-2 { margin-top: 2rem; }
 .mb-1 { margin-bottom: 1rem; }
 .flex-center { display: flex; align-items: center; justify-content: center; }
