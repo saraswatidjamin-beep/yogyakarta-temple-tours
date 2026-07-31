@@ -694,6 +694,18 @@ main article p, main .article-body p, main section p {
 }
 
 /* Mobile: body 0.95rem + padding */
+
+/* ── Hero Image (Pexels editorial) ── */
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   body { font-size: 0.95rem; }
   main, main article { padding-inline: 16px; }
