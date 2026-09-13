@@ -3,8 +3,23 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/yogyakarta-cooking-c-vs-yogyakarta-historica-food-yogyakarta",
+      "destination": "https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-market-tour-vs-historical-food-tour",
+      "permanent": true
+    },
+    {
+      "source": "/yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta",
+      "destination": "https://www.yogyakarta-temple-tours.com/yogyakarta-historical-food-tour-vs-cooking-class",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
-      "has": [{"type": "host", "value": "yogyakarta-temple-tours.com"}],
+      "has": [
+        {
+          "type": "host",
+          "value": "yogyakarta-temple-tours.com"
+        }
+      ],
       "destination": "https://www.yogyakarta-temple-tours.com/$1",
       "permanent": true
     }
