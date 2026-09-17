@@ -1,3 +1,5 @@
 .vercel
 .review/
 .build/
+*.bak
+*.bak-*
