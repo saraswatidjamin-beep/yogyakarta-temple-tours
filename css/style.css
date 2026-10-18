@@ -811,6 +811,12 @@ main.home-content .byline { color: var(--ink-muted); }
 .conv-or{color:#55606a;font-size:.92rem}
 .conv-note{margin:.75rem 0 0;font-size:.85rem;color:#55606a}
 
+/* Utility-page editor introduction */
+.author-block--large { display: flex; align-items: center; gap: 1.2rem; margin: 1.5rem 0; padding: 1.25rem; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); }
+.author-block--large .author-avatar { flex: 0 0 88px; width: 88px; height: 88px; object-fit: cover; border-radius: 50%; }
+.author-block--large p { margin: 0; font-size: .95rem; }
+.author-block--large .editor-name { margin-bottom: .35rem; font-size: 1.2rem; }
+@media (max-width: 480px) { .author-block--large { align-items: flex-start; gap: .9rem; padding: 1rem; } .author-block--large .author-avatar { flex-basis: 64px; width: 64px; height: 64px; } }
 /* Yogyakarta additions: card detail lines, conv layer, all-guides list */
 .card-rating, .card-price { margin: .25rem 0; color: rgba(255,255,255,.86) !important; font-size: .92rem; }
 .card-rating a { color: var(--gold-200) !important; text-decoration: none; font-weight: 600; }
