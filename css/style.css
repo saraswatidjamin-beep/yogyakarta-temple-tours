@@ -1,8 +1,7 @@
 /* Yogyakarta Temple Tours — field-guide visual system.
    Layout system ported from the Hanuman fleet's thailandaytours field guide;
    palette and display face are Yogyakarta's own (temple stone, Merapi basalt, gold). */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700&f[]=cabinet-grotesk@700,800&display=swap');
+/* Web fonts (Fraunces, Switzer, Cabinet Grotesk) load via <link> tags in each page <head> (not CSS imports), so they download in parallel with this file. */
 
 :root {
   --forest-950: #22140f;
