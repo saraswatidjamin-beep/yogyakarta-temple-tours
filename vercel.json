@@ -9,7 +9,12 @@
     },
     {
       "source": "/yogyakarta-historica-vs-yogyakarta-cooking-c-food-yogyakarta",
-      "destination": "https://www.yogyakarta-temple-tours.com/yogyakarta-historical-food-tour-vs-cooking-class",
+      "destination": "https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-market-tour-vs-historical-food-tour",
+      "permanent": true
+    },
+    {
+      "source": "/yogyakarta-historical-food-tour-vs-cooking-class",
+      "destination": "https://www.yogyakarta-temple-tours.com/yogyakarta-cooking-class-market-tour-vs-historical-food-tour",
       "permanent": true
     },
     {
