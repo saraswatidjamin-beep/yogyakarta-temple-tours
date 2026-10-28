@@ -32,7 +32,116 @@
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-52JY0TL356"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-52JY0TL356',{anonymize_ip:true});</script>
-  <script data-saraswati-pageview="v1">(function(){window.goatcounter=window.goatcounter||{};window.goatcounter.path=function(p){var h=String(location.hostname||'').toLowerCase().replace(/^www\./,'');if(h!=='yogyakarta-temple-tours.com'){return null;}var path=String(p===undefined?location.pathname:p).split(/[?#]/,1)[0]||'/';return h+(path.charAt(0)==='/'?path:'/'+path);};})();</script><script async data-goatcounter="https://hanuman.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+  <script data-saraswati-measurement="v2">(function(C){'use strict';
+var w=window,d=document,g=w.goatcounter=w.goatcounter||{};
+if(w.__swaMeasurementV2)return;
+var state=w.__swaMeasurementV2={disabled:false,pageAttempted:false,ready:false};
+g.no_onload=true;g.no_events=true;
+var initial=location.href, route=location.pathname, host=location.hostname.toLowerCase().replace(/^www\./,'');
+var bucket='swa2-direct-unknown', owned=null;
+function fail(){state.disabled=true;}
+function source(){
+  var values=[],bad=false,params=new URLSearchParams(location.search);
+  if(/%(?![0-9a-f]{2})/i.test(location.search))bad=true;
+  C.source.parameters.forEach(function(k){
+    var all=params.getAll(k);if(all.length>1)bad=true;
+    all.forEach(function(v){v=v.trim().toLowerCase();if(v){values.push(v);if(v.length>C.source.max_length||v.indexOf('\ufffd')!==-1)bad=true;}});
+  });
+  if(values.length>1)bad=true;
+  if(!bad&&values.length===1&&Object.prototype.hasOwnProperty.call(C.source.overrides,values[0]))
+    return 'swa2-'+C.source.overrides[values[0]];
+  try{
+    if(!d.referrer)return 'swa2-direct-unknown';
+    var r=new URL(d.referrer);
+    if((r.protocol!=='https:'&&r.protocol!=='http:')||r.username||r.password)return 'swa2-direct-unknown';
+    var h=r.hostname.toLowerCase();
+    if(h===C.host||h==='www.'+C.host)return 'swa2-internal';
+    return 'swa2-'+(Object.prototype.hasOwnProperty.call(C.source.hosts,h)?C.source.hosts[h]:'referral');
+  }catch(e){return 'swa2-direct-unknown';}
+}
+try{bucket=source();}catch(e){fail();}
+if(host!==C.host||C.paths.indexOf(route)===-1){fail();return;}
+function active(){
+  // Hash-only navigation is the same document route; query/history changes stop it.
+  if(location.href.split('#')[0]!==initial.split('#')[0])fail();
+  return !state.disabled;
+}
+function emit(path,event){
+  if(!active())return false;
+  try{
+    owned={path:path,event:event,referrer:bucket,title:C.title,no_session:true};
+    g.count(owned);owned=null;return true;
+  }catch(e){owned=null;fail();return false;}
+}
+function page(){
+  if(!active()||state.pageAttempted||('visibilityState' in d&&d.visibilityState!=='visible'))return;
+  if(emit(C.page,false))state.pageAttempted=true;
+}
+function viator(a){
+  try{var u=new URL(a.getAttribute('href'),location.href);
+    return (u.protocol==='https:'||u.protocol==='http:')&&!u.username&&!u.password&&!u.port&&C.viator.indexOf(u.hostname)!==-1;
+  }catch(e){return false;}
+}
+function ready(){
+  if(state.ready||state.disabled)return;
+  if(typeof g.get_data!=='function'||typeof g.url!=='function'||typeof g.count!=='function'||typeof g.filter!=='function'){fail();return;}
+  var original=g.get_data, nativeCount=g.count, nativeUrl=g.url, probeData=null;
+  g.get_data=function(vars){
+    var data=original.apply(this,arguments);
+    if(vars===owned&&owned){data.p=owned.path;data.e=owned.event;data.r=bucket;data.q='';data.t=C.title;delete data.s;data.ns=true;probeData=data;}
+    return data;
+  };
+  // Capture the installed seam now, not after a deferred DOM callback.
+  var wrapped=g.get_data;
+  // url() builds a string only. Never pass this probe to count() or transport.
+  try{
+    owned={path:C.page+'|compatibility-probe',event:true,referrer:bucket,title:C.title,no_session:true};
+    var probePath=owned.path, probeUrl=new URL(g.url(owned)), params=probeUrl.searchParams;
+    owned=null;
+    var keys=Object.keys(probeData||{}).sort().join(',');
+    if(keys!=='b,e,ns,p,q,r,rnd,t'||probeData.p!==probePath||probeData.e!==true||probeData.r!==bucket||
+       probeData.q!==''||probeData.t!==C.title||probeData.ns!==true||typeof probeData.b!=='number'||
+       !Number.isFinite(probeData.b)||probeUrl.origin!=='https://hanuman.goatcounter.com'||probeUrl.pathname!=='/count'||
+       probeUrl.username||probeUrl.password||probeUrl.hash||
+       Array.from(params.keys()).sort().join(',')!=='b,e,ns,p,r,rnd,t'||
+       params.get('p')!==probePath||params.get('e')!=='true'||params.get('r')!==bucket||
+       params.get('t')!==C.title||params.get('ns')!=='true'||params.get('b')!==String(probeData.b)||!params.get('rnd')){
+      fail();return;
+    }
+  }catch(e){owned=null;fail();return;}
+  probeData=null;state.ready=true;
+  function bind(){
+    if(state.disabled)return;
+    // A second loader may execute while parsing; check before the page hit too.
+    if(g.get_data!==wrapped||g.count!==nativeCount||g.url!==nativeUrl){fail();return;}
+    var nodes=Array.prototype.slice.call(d.querySelectorAll('a'));
+    if(nodes.length!==C.total_anchor_count){fail();return;}
+    var refs=C.anchors.map(function(row){return {node:nodes[row.index],row:row};});
+    function activation(e){
+      if(e.defaultPrevented||!active()||!state.pageAttempted)return;
+      if((e.type==='click'&&e.button!==0)||(e.type==='auxclick'&&e.button!==1))return;
+      if(g.get_data!==wrapped||g.count!==nativeCount||g.url!==nativeUrl){fail();return;}
+      try{
+        var target=e.target,a=target&&target.closest?target.closest('a'):null;
+        if(!a)return;
+        var entry=refs.find(function(v){return v.node===a;}), row=entry&&entry.row;
+        var exact=row&&a.getAttribute('href')===row.href&&a.getAttribute('data-goatcounter-click')===row.legacy_label;
+        if(exact&&row.kind==='legacy'){emit(row.key,true);return;}
+        if(!viator(a))return;
+        var placement=exact&&row.kind==='outbound'?row.placement:'unknown';
+        emit(exact?row.key:C.unknown[placement],true);
+      }catch(e){fail();}
+    }
+    page();
+    d.addEventListener('click',activation,false);d.addEventListener('auxclick',activation,false);
+    d.addEventListener('visibilitychange',function(){if(g.get_data!==wrapped||g.count!==nativeCount||g.url!==nativeUrl){fail();return;}page();},false);
+  }
+  if(d.readyState==='loading')d.addEventListener('DOMContentLoaded',bind,{once:true});else bind();
+}
+// Listen before the single async loader executes. A blocked/error loader never binds.
+d.addEventListener('load',function(e){if(e.target&&e.target.matches&&e.target.matches('script[data-goatcounter]'))ready();},true);
+d.addEventListener('error',function(e){if(e.target&&e.target.matches&&e.target.matches('script[data-goatcounter]'))fail();},true);
+})({"host":"yogyakarta-temple-tours.com","file":"multi-day/index.html","page":"yogyakarta-temple-tours.com/multi-day","paths":["/multi-day","/multi-day/","/multi-day/index.html"],"title":"Saraswati measurement v2","source":{"parameters":["utm_source","ref","src","source"],"max_length":128,"overrides":{"chatgpt.com":"ai-chatgpt","chatgpt":"ai-chatgpt","perplexity.ai":"ai-perplexity","perplexity":"ai-perplexity","claude.ai":"ai-claude","claude":"ai-claude","gemini.google.com":"ai-gemini","gemini":"ai-gemini","copilot.microsoft.com":"ai-copilot","copilot":"ai-copilot","google":"search-google","google.com":"search-google","bing":"search-bing","bing.com":"search-bing","duckduckgo.com":"search-other","duckduckgo":"search-other","search.brave.com":"search-other","brave":"search-other","yahoo":"search-other","search.yahoo.com":"search-other"},"hosts":{"chatgpt.com":"ai-chatgpt","www.chatgpt.com":"ai-chatgpt","chat.openai.com":"ai-chatgpt","perplexity.ai":"ai-perplexity","www.perplexity.ai":"ai-perplexity","claude.ai":"ai-claude","www.claude.ai":"ai-claude","gemini.google.com":"ai-gemini","copilot.microsoft.com":"ai-copilot","google.com":"search-google","www.google.com":"search-google","bing.com":"search-bing","www.bing.com":"search-bing","duckduckgo.com":"search-other","www.duckduckgo.com":"search-other","search.brave.com":"search-other","search.yahoo.com":"search-other"}},"anchors":[{"index":8,"href":"https://www.viator.com/tours/Yogyakarta/YOGYAKARTA-BROMO-IJEN-BALI-TOUR-5D4N/d22560-208940P3?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-top-pick","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|unknown|208940P3","product":"208940P3","placement":"unknown","kind":"outbound"},{"index":10,"href":"https://www.viator.com/tours/Yogyakarta/From-Yogyakarta-to-Bali-Bromo-and-Kawah-Ijen-3-Day-Adventure/d22560-126148P11?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card-rating","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|126148P11","product":"126148P11","placement":"card","kind":"outbound"},{"index":11,"href":"https://www.viator.com/tours/Yogyakarta/From-Yogyakarta-to-Bali-Bromo-and-Kawah-Ijen-3-Day-Adventure/d22560-126148P11?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|126148P11","product":"126148P11","placement":"card","kind":"outbound"},{"index":14,"href":"https://www.viator.com/tours/Yogyakarta/YOGYAKARTA-BROMO-IJEN-BALI-TOUR-5D4N/d22560-208940P3?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card-rating","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|208940P3","product":"208940P3","placement":"card","kind":"outbound"},{"index":15,"href":"https://www.viator.com/tours/Yogyakarta/YOGYAKARTA-BROMO-IJEN-BALI-TOUR-5D4N/d22560-208940P3?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|208940P3","product":"208940P3","placement":"card","kind":"outbound"},{"index":16,"href":"https://www.viator.com/tours/Yogyakarta/From-Yogyakarta-Dieng-Plateau-Golden-Sunrise-Private-Day-Trip/d22560-69059P7?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card-rating","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|69059P7","product":"69059P7","placement":"card","kind":"outbound"},{"index":17,"href":"https://www.viator.com/tours/Yogyakarta/From-Yogyakarta-Dieng-Plateau-Golden-Sunrise-Private-Day-Trip/d22560-69059P7?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|69059P7","product":"69059P7","placement":"card","kind":"outbound"},{"index":21,"href":"https://www.viator.com/tours/Yogyakarta/Borobudur-Sunrise-and-Dieng-Plateau-Tour/d22560-13904P48?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card-rating","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|13904P48","product":"13904P48","placement":"card","kind":"outbound"},{"index":22,"href":"https://www.viator.com/tours/Yogyakarta/Borobudur-Sunrise-and-Dieng-Plateau-Tour/d22560-13904P48?pid=P00303273\u0026mcid=42383\u0026medium=link","legacy_label":"viator-card","key":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|13904P48","product":"13904P48","placement":"card","kind":"outbound"}],"total_anchor_count":37,"unknown":{"card":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|card|unknown","featured":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|featured|unknown","inline":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|inline|unknown","top-pick":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|top-pick|unknown","unknown":"swa-out-v2|yogyakarta-temple-tours|%2Fmulti-day|unknown|unknown"},"viator":["viator.com","www.viator.com"]});</script><script async data-goatcounter="https://hanuman.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Multi-Day Volcano Trips from Yogyakarta: Bromo, Ijen and Dieng Compared", "description": "Compare four Bromo, Ijen and Dieng trips from Yogyakarta by endpoint, days and effort, so you book the one that ends where your onward flight leaves.", "author": {"@type": "Person", "name": "Rama Kusuma", "url": "https://www.yogyakarta-temple-tours.com/about"}, "publisher": {"@type": "Organization", "name": "Yogyakarta Temple Tours", "url": "https://www.yogyakarta-temple-tours.com"}, "datePublished": "2026-06-16", "dateModified": "2026-10-25", "url": "https://www.yogyakarta-temple-tours.com/multi-day", "mainEntityOfPage": "https://www.yogyakarta-temple-tours.com/multi-day", "image": "https://www.yogyakarta-temple-tours.com/images/hero-multi-day.jpg"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I do Bromo and Ijen as a day trip from Yogyakarta?", "acceptedAnswer": {"@type": "Answer", "text": "The road journey to Bromo alone is roughly 8-10 hours, with Ijen farther east. These listings allow three or five days."}}, {"@type": "Question", "name": "Do Bromo-Ijen trips from Yogyakarta bring me back to Yogyakarta?", "acceptedAnswer": {"@type": "Answer", "text": "The 3-day route heads toward Banyuwangi/Bali. The 5-day listing's endpoint is unconfirmed. Round-trip alternatives exist; obtain the final drop-off and timing before paying."}}, {"@type": "Question", "name": "How cold is the Dieng Plateau at sunrise?", "acceptedAnswer": {"@type": "Answer", "text": "Dieng sits around 2,000 m, with single-digit Celsius mornings common. Bring a warm jacket for Sikunir."}}, {"@type": "Question", "name": "Is the Ijen blue fire safe to visit?", "acceptedAnswer": {"@type": "Answer", "text": "Vent fumes are hazardous. A gas mask is essential near the vents. Confirm provision, keep it on, stay upwind and follow the miners' read of the wind."}}, {"@type": "Question", "name": "When is the best season for these trips?", "acceptedAnswer": {"@type": "Answer", "text": "The dry season, roughly May to September, offers the most reliable sunrise conditions. The wet season runs roughly November to March."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.yogyakarta-temple-tours.com/"}, {"@type": "ListItem", "position": 2, "name": "Multi-Day Volcano Trips from Yogyakarta: Bromo, Ijen and Dieng Compared", "item": "https://www.yogyakarta-temple-tours.com/multi-day"}]}]}</script>
 </head>
 <body>
